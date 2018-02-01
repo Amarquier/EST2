@@ -1,0 +1,14 @@
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="footer" data-role="footer" data-theme="b" data-tap-toggle="false"
+            data-id="main-footer" data-position="fixed" data-fullscreen="true">
+    <div data-role="navbar" data-grid="d">
+        <ul>
+            <li><a  style="background-color: #AD192B" href="discovery.jsp?action=aRef" id="navbardisco" data-icon="star">Référence</a></li>
+            <li><a  style="background-color: #AD192B" href="discovery.jsp?action=aVal" id="navbarhome"  data-icon="check">Valider</a></li>
+            <li><a  style="background-color: #AD192B" href="discovery.jsp?action=aGestion" id="navbartuto1" data-icon="edit">Gestion</a></li>
+            <li><a  style="background-color: #AD192B" href="discovery.jsp?action=aCompte" id="navbarcompte" data-icon="user">Compte</a></li>
+            <li><a  style="background-color: #AD192B" href="discovery.jsp?action=aActu" id="navbaractu"  data-icon="comment">Actu</a></li>
+        </ul>
+    </div>
+</div>

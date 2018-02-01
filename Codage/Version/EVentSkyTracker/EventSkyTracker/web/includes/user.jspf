@@ -1,0 +1,16 @@
+<%-- user.jspf --%>
+<center><div data-theme="a">
+    <%     
+        com.metier.ESTSession maSession1 = (com.metier.ESTSession)session.getAttribute("maSession");
+        
+        // user doit être déjà initialisé include session.jspf
+        if (maSession1 != null) {
+            com.persistence.User user1 = maSession1.getUser();
+            out.println("<div id='divUser'>" + user1.getPseudo());
+            for (int nb = 1; nb <= user1.getGrade(); nb++) {
+                out.print(" <img src='images/star.gif'>");
+            }
+            out.println("</div>");
+        }
+    %>
+</div></center>
