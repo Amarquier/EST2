@@ -1,0 +1,49 @@
+
+/* position du bloc qui contient la video */
+#video {
+    position: relative;
+    height: 710px;
+    margin: auto;
+}
+
+/* taille de la video en pixels */
+#video img {
+    position: absolute;
+    height: 700px;
+    width: 700px;
+}
+
+/* centre les éléments suivants */
+#video img,#divSliderVideo,#divCanvas {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#sliderDelai {
+    font-size: xx-large;
+}
+
+#divSliderVideo {
+    width: 90%;
+}
+
+#canvas {
+    height: 20px;
+}
+
+#boutons {
+    margin-top: -130px; /* les boutons sortent trop bas ? */
+}
+
+/* Hide the number input */
+#divSliderVideo input {
+    display: none;
+}
+
+/* corrige le décalage dû à l'absence du label */
+#divSliderVideo .ui-slider-track {
+    margin-left: 15px;
+}

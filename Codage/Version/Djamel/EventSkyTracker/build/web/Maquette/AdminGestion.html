@@ -1,0 +1,123 @@
+
+<html lang="fr">
+    <head>
+        <title>Tutoriel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <link rel="apple-touch-icon" href="../images/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+        <link rel="icon" href="../images/apple-touch-icon-57x57.png" />
+        <link rel="stylesheet" href="../js/jquery.mobile/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="../css/themes/themeBlue.min.css" />
+        <link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="../css/disco1.css">   
+        <script type="text/javascript" src="../js/jquery/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.mobile/jquery.mobile-1.4.5.min.js"></script>
+</head>
+    <head>
+        <title>Questionnaire</title> 
+    </head>
+    
+ <form id="formRecherche" method="post" action="eventSkyTracker.jsp">
+                    <blockquote>
+                        <input type="search" name="recherche" placeholder="Entrez un pseudo." id="recherche">
+                        <span></span>
+                    </blockquote>
+                    <input name="action" type="hidden" value="a_gestionRecherche"/>
+                    <button type="submit" name="submitOK" data-theme="a">Recherche</button>
+                </form>
+    
+<br/><br/><br/>
+
+
+ <h3>Informations sur votre compte :</h3>
+        <div>
+            <table style="margin-left:5%">
+                    <tr>
+                        <td><strong>Pseudo :</strong></td><td>&emsp;&emsp;user1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nom :</strong></td><td>&emsp;&emsp;user1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>EMail :</strong></td><td>&emsp;&emsp;user1ESTracker@iris.com</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Grade :</strong></td><td>&emsp;&emsp;5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Première Visite : </strong></td><td>&emsp;&emsp;mercredi 01 mars 2017 à 16:32</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dernière Visite : </strong></td><td>&emsp;&emsp;lundi 22 mai 2017 à 08:31</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nombre total de connexions :</strong></td><td>&emsp;&emsp;6</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Nombre de qualification : </strong></td><td>&emsp;&emsp;0</td>
+                    </tr>                
+                    <tr>
+            </table>
+        </div>
+       <a href="tuto2.jsp" class="ui-btn ui-shadow ui-corner-all">Modifier</a>
+   <div class="ui-grid-d">
+                    <div class="ui-block-a">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a"></div>
+                            <div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow" href="eventSkyTracker.jsp?action=a_gestion&nbrUser=1">|<<</a></div>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-b">
+                                <a class="ui-btn ui-corner-all ui-shadow" href="#"><<</a>
+                            </div>
+                           
+                            <div class="ui-block-b">
+                                <a class="ui-btn ui-corner-all ui-shadow" href="eventSkyTracker.jsp?action=a_gestion&nbrUser=<%=nbrUser - 1%>"><</a>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="ui-block-c">
+                        <div class="ui-block-a"></div>
+                        <div class="ui-block-b"></div>            
+                    </div>
+                    <div class="ui-block-d">
+                        <div class="ui-grid-a">
+                          
+                            <div class="ui-block-a"><a class="ui-btn ui-corner-all ui-shadow" href="eventSkyTracker.jsp?action=a_gestion&nbrUser=<%=nbrUser + 1%>">></a></div>
+                            
+                           
+                            
+                            <div class="ui-block-b"><a class="ui-btn ui-corner-all ui-shadow" href="#">>></a></div>
+                        </div>
+                    </div>
+                    <div class="ui-block-e">
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a"><a class="ui-btn ui-corner-all ui-shadow" href="eventSkyTracker.jsp?action=a_gestion&nbrUser=<%=size%>">>>|</a></div>
+                            <div class="ui-block-b"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+  <div class="footer" data-role="footer" data-theme="b"  data-id="main-footer" data-position="fixed">
+                    <div data-role="navbar" data-grid="d">
+                        <ul>
+                            <li><a href="home.html" id="home"  data-icon="home" data-transition="slide">Qualifier</a></li>
+                            <li><a href="disco.html" data-ajax="false" id="disco" data-icon="eye" data-transition="slide">gestion</a></li>         
+                            <li><a href="account.html" id="user"  data-icon="gear" data-transition="slide">Compte</a></li>
+                            <li><a href="actu.html" id="actu"  data-icon="comment" data-transition="slide">Actu</a></li>
+                        </ul>
+                    </div>
+                </div>
+</body>
+</html>

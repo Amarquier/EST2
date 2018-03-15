@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <link rel="stylesheet" href="js/jquery.mobile/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/images.css">
+    
+    <script type="text/javascript" src="js/jquery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile/jquery.mobile-1.4.5.min.js"></script>
+    
+    <script type="text/javascript" src="js/slider.js"></script>
+</head>
+
+<div>
+    <br/><br/><br/>
+    <!-- Element vidéo à visualiser -->
+    <div id="video" align="center">
+        <!-- A remplacer -->
+        <img id="img0" src="images/tuto03.jpg" align="center"/>
+    </div>
+    
+    <!-- Ajouter l'info du délai entre le curseur et l'événement initial en mn -->
+    <div id="sliderDelai" align="center">0 mn</div>
+    
+    <!-- Le slider (le label est caché) -->
+    <div id="divSliderVideo">
+        <label for="sliderVideo" class="ui-hidden-accessible">Slider :</label>
+        <input type="range" name="sliderVideo" id="sliderVideo" data-highlight="true">
+        <!-- Ajouter des index visuels des positions des images au dessus du slider -->
+        <canvas id="regle"></canvas>
+        <div id="boutons" align="center">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#" id="btnPcdt" data-icon="arrow-l" data-iconpos="left" 
+                        class="ui-state-disabled" 
+                        data-theme="b"
+                        data-role="button">Précédent</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#" id="btnSvt" data-icon="arrow-r" data-iconpos="right" 
+                        class="ui-state-disabled"
+                        data-theme="b"
+                        data-role="button">Suivant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

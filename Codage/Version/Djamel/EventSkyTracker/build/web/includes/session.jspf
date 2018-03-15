@@ -1,0 +1,19 @@
+<%-- Nom : session.jspf --%>
+<%-- 
+    Ouverture de la connexion avec la base de données 
+    Création de l'objet session 
+    Création de l'objet user
+--%>
+<%@page import="com.persistence.ConnexionMySQL"%>
+<%@page import="java.sql.Connection"%>
+    <%
+        Connection con = (Connection) session.getAttribute("con");
+        if (con == null)
+            con = ConnexionMySQL.newConnexion();
+        session.setAttribute("con", con);
+        com.metier.ESTSession maSession = (com.metier.ESTSession)session.getAttribute("maSession");
+        com.persistence.User user = null;
+        if (maSession != null) {
+            user = maSession.getUser();
+        }
+    %>
