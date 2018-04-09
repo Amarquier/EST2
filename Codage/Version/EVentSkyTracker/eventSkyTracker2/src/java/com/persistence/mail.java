@@ -43,7 +43,6 @@ public class mail {
         }
         @Override
         public void run() {
-            System.out.println("unThread");
             try {
                 if (Evenement.getNew() == true) {
                     mail.autoMail();
@@ -88,7 +87,7 @@ public class mail {
             try {
                 message.setText("Un nouvel événement a été découvert  venez voir !!! ");
                 message.setSubject("Nouvel événement ");
-                message.addRecipients(Message.RecipientType.TO, email);
+                message.addRecipients(Message.RecipientType.BCC, email);
             } catch (MessagingException e) {
                 e.printStackTrace();
             }
