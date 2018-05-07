@@ -1,0 +1,18 @@
+<%-- a_user.jspf --%>
+<%-- 
+    Affichage du nom du user connecté avec ses étoiles
+    Inclure l'ouverture de session
+--%>
+<div data-theme="b"><center>
+    <%
+        com.metier.ESTSession maSessionA = (com.metier.ESTSession)session.getAttribute("maSession");
+       
+        if (maSessionA != null) {
+            com.persistence.User userA = maSessionA.getUser();
+            out.print(" " + userA.getPseudo());
+            for (int nb = 1; nb <= userA.getGrade(); nb++) {
+                out.print(" <img src='images/star.gif'>");
+            }
+        }
+    %>
+</div></center>
