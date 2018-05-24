@@ -1,0 +1,235 @@
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:14:13.281 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:14:13.306 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:14:13.343 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:14:13.366 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:14:13.392 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "passroot""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:14:13.431 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:14:13.446 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:14:13.460 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:14:13.492 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:14:13.522 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:14:13.539 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:14:13.556 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:14:13.574 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:14:13.592 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:14:13.611 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:15:01)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:15:45.212 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:15:45.223 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:15:45.247 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:15:45.259 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:15:45.272 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "passroot""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:15:45.297 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:15:45.310 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:15:45.324 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:15:45.353 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:15:45.383 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:15:45.419 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:15:45.439 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:15:45.455 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:15:45.471 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:15:45.487 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:15:48)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:24:19.845 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:24:19.857 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:24:19.879 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:24:19.890 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:24:19.901 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "passroot""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:24:19.923 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:24:19.935 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:24:19.946 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:24:20.055 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:24:20.191 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:24:20.227 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:24:20.271 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:24:20.308 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:24:20.351 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:24:20.422 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:24:51)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:25:04.638 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:25:04.649 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:25:04.673 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:25:04.685 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:25:04.697 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "passroot""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:25:04.721 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:25:04.734 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:25:04.748 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:25:04.777 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:25:04.806 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:25:04.821 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:25:04.837 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:25:04.855 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:25:04.872 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:25:04.890 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:25:09)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:28:15.711 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:28:15.725 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:28:15.753 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:28:15.768 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:28:15.782 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "li*p+(#""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:28:15.811 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:28:15.826 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:28:15.840 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:28:15.876 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:28:15.909 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:28:15.926 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:28:15.943 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:28:15.960 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:28:15.978 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:28:15.997 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:28:23)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+ros(common,passw,file)=C:/srv/develop/ros_private_cador/conf/src/common/pass_pc_lycee_lvh.txt
+
+ros(common,ros_mysql,passroot)=li*p+(#
+
+--------------------------------------------------------
+2013-12-15T22:31:13.624 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:31:13.637 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:31:13.664 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:31:13.679 sqln_connect : ERROR user1: ::mysql::connect/db server: Access denied for user 'root'@'localhost' (using password: YES)
+2013-12-15T22:31:13.694 sqln_connect :  when tryed "sqln connect 127.0.0.1 root "li*p+(#""
+MySQL connect (0): 127.0.0.1 ros 
+2013-12-15T22:31:13.725 sqln_use : WARNING "No database ros": ::mysql::query: not mysqltcl handle
+2013-12-15T22:31:13.741 sqln_use : ERROR database1: ::mysql::query: not mysqltcl handle
+2013-12-15T22:31:13.757 sqln_use : ERROR database2: ::mysql::query: not mysqltcl handle
+MySQL use (0): ros
+2013-12-15T22:31:13.793 sqln_table : PROBLEME sqln_table in "" (step 2): ::mysql::query: not mysqltcl handle
+MySQL use (1): ros
+2013-12-15T22:31:13.826 MySQL table cameras (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:31:13.843 MySQL table filters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:31:13.861 MySQL table linkcamfilters (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:31:13.880 MySQL table linkusertelescopes (0): 0
+2013-12-15T22:31:13.899 MySQL table telescopes (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+2013-12-15T22:31:13.919 MySQL table users (1): wrong # args: should be "string first needleString haystackString ?startIndex?"
+--------------------------------------------------------
+Sortie de SNprocess (2013-12-15 22:31:22)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2013-12-15T22:32:23.701 sqln_connect : MySQL Connexion succeed to 127.0.0.1 but problem with user ros.
+2013-12-15T22:32:23.715 sqln_connect : WARNING "no user ros": ::mysql::connect/db server: Access denied for user 'ros'@'localhost' (using password: YES)
+ when tryed "sqln connect 127.0.0.1 ros pass"
+2013-12-15T22:32:23.741 sqln_connect : WARNING : Connect user root to create the user ros
+2013-12-15T22:32:23.756 sqln_connect : User ros created with success.
+2013-12-15T22:32:23.770 sqln_connect : WARNING : Unconnect root user
+2013-12-15T22:32:23.784 sqln_connect : WARNING : Connect user ros
+2013-12-15T22:32:23.799 sqln_connect : User ros connected.
+MySQL connect (0): 127.0.0.1 ros mysql2
+2013-12-15T22:32:23.830 sqln_use : WARNING "No database ros": ::mysql::query/db server: Unknown database 'ros'
+2013-12-15T22:32:23.852 sqln_use : Database ros created with success
+MySQL use (0): ros
+MySQL use (0): ros
+2013-12-15T22:32:24.843 MySQL table cameras (0): 8
+2013-12-15T22:32:24.867 MySQL table filters (0): 19
+2013-12-15T22:32:24.892 MySQL table linkcamfilters (0): 33
+2013-12-15T22:32:24.917 MySQL table linkusertelescopes (0): 251
+2013-12-15T22:32:24.941 MySQL table telescopes (0): 7
+2013-12-15T22:32:24.969 MySQL table users (0): 67
+--------------------------------------------------------
+Site name: CADOR
+Site coordinates: GPS 5.71506 E 43.93179 634
+--------------------------------------------------------
+2013-12-15T22:32:25.102 sqln_galaxia_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql24
+2013-12-15T22:32:25.137 sqln_galaxia_use : WARNING "No database galaxia": ::mysql::query/db server: Access denied for user 'ros'@'%' to database 'galaxia'
+2013-12-15T22:32:25.155 sqln_galaxia_use : ERROR database1: ::mysql::query/db server: Access denied for user 'ros'@'%' to database 'galaxia'
+2013-12-15T22:32:25.173 sqln_galaxia_use : ERROR database2: ::mysql::query/db server: Access denied for user 'ros'@'%' to database 'galaxia'
+MySQL use (0): galaxia
+2013-12-15T22:32:25.219 sqln_galaxia_table : PROBLEME sqln_galaxia_table in "" (step 2): ::mysql::query/db server: No database selected
+MySQL table (1): galaxia
+MySQL table Error = ::mysql::query/db server: No database selected
+--------------------------------------------------------
+Galaxia OK
+--------------------------------------------------------
+Mode de gestion des disques : pc_lycee_lvh
+Archivage du fichier snprocess.log

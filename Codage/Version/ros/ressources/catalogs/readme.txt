@@ -1,0 +1,1 @@
+Put here the CD contents of the USNO A2 catalog

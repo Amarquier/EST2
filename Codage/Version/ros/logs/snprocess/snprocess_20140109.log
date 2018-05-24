@@ -1,0 +1,41 @@
+Archivage web du fichier snprocess.log
+2014-01-09T14:29:40.660 : snprocess_core : ---------------------------------------------
+2014-01-09T14:29:45.407 : snprocess_core : tel1 DJD1 = 2014-01-09T14:29:40.660  -  2013-12-16T07:24:01.440 = 24.2956
+2014-01-09T14:29:50.130 : snprocess_core : tel1 DJD2 = 2014-01-09T07:29:01.248  -  2013-12-16T07:24:01.440 =  24.0035
+2014-01-09T14:29:51.799 : snprocess_core : =============================================
+2014-01-09T14:29:51.814 : snprocess_core : == TELESCOPE 1: Tarot_Calern
+2014-01-09T14:29:51.915 : snprocess_core : =============================================
+2014-01-09T14:29:51.929 : snprocess_core : == dusk obs: 2014-01-09T17:04:01.632
+2014-01-09T14:29:52.631 : snprocess_core : == dawn obs: 2014-01-10T06:14:47.328
+2014-01-09T14:29:52.645 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T14:29:52.660 : snprocess_core : =============================================
+2014-01-09T14:29:53.205 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T14:29:53.220 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T14:29:53.290 : snprocess_core : url=http://tarot6.obs-azur.fr/ros/supernovae/zip/Tarot_Calern_20140108.zip
+2014-01-09T14:30:20.161 : snprocess_core : Problem couldn't open socket: connection timed out
+2014-01-09T14:30:20.308 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T14:30:21.242 : snprocess_core : tel2 DJD1 = 2014-01-09T14:30:21.242  -  2013-12-16T09:56:44.160 = 24.1900
+2014-01-09T14:30:22.462 : snprocess_core : tel2 DJD2 = 2014-01-09T10:11:21.984  -  2013-12-16T09:56:44.160 =  24.0102
+2014-01-09T14:30:22.637 : snprocess_core : =============================================
+2014-01-09T14:30:22.652 : snprocess_core : == TELESCOPE 2: Tarot_Chili
+2014-01-09T14:30:22.667 : snprocess_core : =============================================
+2014-01-09T14:30:22.681 : snprocess_core : == dusk obs: 2014-01-10T00:29:27.744
+2014-01-09T14:30:22.696 : snprocess_core : == dawn obs: 2014-01-10T09:11:17.376
+2014-01-09T14:30:23.008 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T14:30:23.025 : snprocess_core : =============================================
+2014-01-09T14:30:23.136 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T14:30:23.458 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T14:30:23.477 : snprocess_core : url=http://tarotchili5.oamp.fr/ros/supernovae/zip/Tarot_Chili_20140108.zip
+2014-01-09T14:30:47.782 : snprocess_core : Problem couldn't open socket: connection timed out
+2014-01-09T14:30:48.034 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T14:30:48.596 : snprocess_core : tel3 DJD1 = 2014-01-09T14:30:48.596  -  2013-12-15T21:26:08.160 = 24.7116
+2014-01-09T14:30:49.419 : snprocess_core : tel3 DJD2 = 2014-01-08T21:40:48.576  -  2013-12-15T21:26:08.160 =  24.0102
+2014-01-09T14:30:49.644 : snprocess_core : =============================================
+2014-01-09T14:30:49.659 : snprocess_core : == TELESCOPE 3: Zadko_Australia
+2014-01-09T14:30:49.674 : snprocess_core : =============================================
+2014-01-09T14:30:49.688 : snprocess_core : == dusk obs: 2014-01-09T12:09:49.248
+2014-01-09T14:30:49.702 : snprocess_core : == dawn obs: 2014-01-09T20:38:55.968
+2014-01-09T14:30:50.178 : snprocess_core : == filters : 1(C) 5(I) 13(g) 14(r) 15(i) 
+2014-01-09T14:30:50.195 : snprocess_core : =============================================
+2014-01-09T14:30:50.212 : snprocess_core : No URL defined.
+Archivage du fichier snprocess.log

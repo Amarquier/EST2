@@ -1,0 +1,366 @@
+Archivage web du fichier snprocess.log
+2014-01-09T14:30:52.089 : snprocess_core : ---------------------------------------------
+2014-01-09T14:30:52.189 : snprocess_core : tel1 DJD1 = 2014-01-09T14:30:52.089  -  2014-01-09T07:29:01.248 = 0.2929
+2014-01-09T14:30:52.406 : snprocess_core : tel2 DJD1 = 2014-01-09T14:30:52.406  -  2014-01-09T10:11:21.984 = 0.1802
+2014-01-09T14:30:52.644 : snprocess_core : tel3 DJD1 = 2014-01-09T14:30:52.643  -  2014-01-08T21:40:48.576 = 0.7014
+2014-01-09T14:30:52.861 : snprocess_core : tel4 DJD1 = 2014-01-09T14:30:52.860  -  2013-12-16T07:29:35.808 = 24.2926
+2014-01-09T14:30:53.649 : snprocess_core : tel4 DJD2 = 2014-01-09T07:34:33.024  -  2013-12-16T07:29:35.808 =  24.0034
+2014-01-09T14:30:53.728 : snprocess_core : =============================================
+2014-01-09T14:30:53.743 : snprocess_core : == TELESCOPE 4: Satino_OHP
+2014-01-09T14:30:53.757 : snprocess_core : =============================================
+2014-01-09T14:30:53.772 : snprocess_core : == dusk obs: 2014-01-09T17:08:28.608
+2014-01-09T14:30:53.787 : snprocess_core : == dawn obs: 2014-01-10T06:20:01.824
+2014-01-09T14:30:53.802 : snprocess_core : == filters : 0(NoFilter) 
+2014-01-09T14:30:53.817 : snprocess_core : =============================================
+2014-01-09T14:30:53.868 : snprocess_core : No URL defined.
+2014-01-09T14:30:55.688 : snprocess_core : tel4 DJD1 = 2014-01-09T14:30:55.688  -  2014-01-09T07:34:33.024 = 0.2892
+2014-01-09T14:30:55.904 : snprocess_core : tel5 DJD1 = 2014-01-09T14:30:55.904  -  2013-12-16T07:30:08.640 = 24.2922
+2014-01-09T14:30:56.686 : snprocess_core : tel5 DJD2 = 2014-01-09T07:35:04.992  -  2013-12-16T07:30:08.640 =  24.0034
+2014-01-09T14:30:56.762 : snprocess_core : =============================================
+2014-01-09T14:30:56.776 : snprocess_core : == TELESCOPE 5: Faro_Banon
+2014-01-09T14:30:56.790 : snprocess_core : =============================================
+2014-01-09T14:30:56.804 : snprocess_core : == dusk obs: 2014-01-09T17:08:34.656
+2014-01-09T14:30:57.526 : snprocess_core : == dawn obs: 2014-01-10T06:20:26.880
+2014-01-09T14:30:57.542 : snprocess_core : == filters : 0(NoFilter) 9(L) 10(R) 11(G) 12(B) 
+2014-01-09T14:30:57.787 : snprocess_core : =============================================
+2014-01-09T14:30:57.802 : snprocess_core : No URL defined.
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+--------------------------------------------------------
+2014-01-09T14:37:31.641 sqln_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql0
+MySQL use (0): ros
+MySQL use (0): ros
+2014-01-09T14:37:32.091 MySQL table cameras (0): 8
+2014-01-09T14:37:32.112 MySQL table filters (0): 19
+2014-01-09T14:37:32.132 MySQL table linkcamfilters (0): 33
+2014-01-09T14:37:32.152 MySQL table linkusertelescopes (0): 251
+2014-01-09T14:37:32.171 MySQL table telescopes (0): 7
+2014-01-09T14:37:32.194 MySQL table users (0): 67
+--------------------------------------------------------
+Site name: CADOR
+Site coordinates: GPS 5.71506 E 43.93179 634
+--------------------------------------------------------
+2014-01-09T14:37:32.291 sqln_galaxia_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql22
+MySQL use (0): galaxia
+MySQL table (0): galaxia
+--------------------------------------------------------
+Galaxia OK
+--------------------------------------------------------
+Mode de gestion des disques : pc_lycee_lvh
+2014-01-09T14:37:33.853 : snprocess_core : ---------------------------------------------
+2014-01-09T14:37:33.868 : snprocess_core : tel1 DJD1 = 2014-01-09T14:37:33.853  -  1858-11-17T00:00:00.000 = 2456667.1094
+2014-01-09T14:37:34.643 : snprocess_core : tel1 DJD2 = 2014-01-09T07:29:01.248  -  1858-11-17T00:00:00.000 =  2456666.8118
+2014-01-09T14:37:34.720 : snprocess_core : =============================================
+2014-01-09T14:37:34.734 : snprocess_core : == TELESCOPE 1: Tarot_Calern
+2014-01-09T14:37:34.748 : snprocess_core : =============================================
+2014-01-09T14:37:34.762 : snprocess_core : == dusk obs: 2014-01-09T17:04:01.632
+2014-01-09T14:37:34.776 : snprocess_core : == dawn obs: 2014-01-10T06:14:47.328
+2014-01-09T14:37:34.790 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T14:37:34.804 : snprocess_core : =============================================
+2014-01-09T14:37:34.827 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T14:37:34.843 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T14:37:34.858 : snprocess_core : url=http://tarot6.obs-azur.fr/ros/supernovae/zip/Tarot_Calern_20140108.zip
+2014-01-09T14:37:59.829 : snprocess_core : Problem couldn't open socket: connection timed out
+2014-01-09T14:37:59.847 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T14:38:00.078 : snprocess_core : tel2 DJD1 = 2014-01-09T14:38:00.078  -  1858-11-17T00:00:00.000 = 2456667.1097
+2014-01-09T14:38:00.855 : snprocess_core : tel2 DJD2 = 2014-01-09T10:11:21.984  -  1858-11-17T00:00:00.000 =  2456666.9246
+2014-01-09T14:38:00.936 : snprocess_core : =============================================
+2014-01-09T14:38:00.950 : snprocess_core : == TELESCOPE 2: Tarot_Chili
+2014-01-09T14:38:00.965 : snprocess_core : =============================================
+2014-01-09T14:38:00.981 : snprocess_core : == dusk obs: 2014-01-10T00:29:26.880
+2014-01-09T14:38:00.996 : snprocess_core : == dawn obs: 2014-01-10T09:11:17.376
+2014-01-09T14:38:01.012 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T14:38:01.028 : snprocess_core : =============================================
+2014-01-09T14:38:01.044 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T14:38:01.060 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T14:38:01.076 : snprocess_core : url=http://tarotchili5.oamp.fr/ros/supernovae/zip/Tarot_Chili_20140108.zip
+2014-01-09T14:38:22.093 : snprocess_core : Problem couldn't open socket: connection timed out
+2014-01-09T14:38:22.113 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T14:38:22.334 : snprocess_core : tel3 DJD1 = 2014-01-09T14:38:22.333  -  1858-11-17T00:00:00.000 = 2456667.1100
+2014-01-09T14:38:23.047 : snprocess_core : tel3 DJD2 = 2014-01-08T21:40:48.576  -  1858-11-17T00:00:00.000 =  2456666.4033
+2014-01-09T14:38:23.125 : snprocess_core : =============================================
+2014-01-09T14:38:23.140 : snprocess_core : == TELESCOPE 3: Zadko_Australia
+2014-01-09T14:38:23.155 : snprocess_core : =============================================
+2014-01-09T14:38:23.171 : snprocess_core : == dusk obs: 2014-01-09T12:09:49.248
+2014-01-09T14:38:23.186 : snprocess_core : == dawn obs: 2014-01-09T20:38:55.968
+2014-01-09T14:38:23.202 : snprocess_core : == filters : 1(C) 5(I) 13(g) 14(r) 15(i) 
+2014-01-09T14:38:23.218 : snprocess_core : =============================================
+2014-01-09T14:38:23.234 : snprocess_core : No URL defined.
+
+Pas de galaxie a traiter (2014-01-09 14:38:23)
+2014-01-09T14:38:24.472 : snprocess_core : ---------------------------------------------
+2014-01-09T14:38:24.492 : snprocess_core : tel1 DJD1 = 2014-01-09T14:38:24.471  -  2014-01-09T07:29:01.248 = 0.2982
+2014-01-09T14:38:24.711 : snprocess_core : tel2 DJD1 = 2014-01-09T14:38:24.711  -  2014-01-09T10:11:21.984 = 0.1854
+2014-01-09T14:38:24.932 : snprocess_core : tel3 DJD1 = 2014-01-09T14:38:24.932  -  2014-01-08T21:40:48.576 = 0.7067
+2014-01-09T14:38:25.150 : snprocess_core : tel4 DJD1 = 2014-01-09T14:38:25.150  -  1858-11-17T00:00:00.000 = 2456667.1100
+2014-01-09T14:38:25.928 : snprocess_core : tel4 DJD2 = 2014-01-09T07:34:33.024  -  1858-11-17T00:00:00.000 =  2456666.8157
+2014-01-09T14:38:26.007 : snprocess_core : =============================================
+2014-01-09T14:38:26.027 : snprocess_core : == TELESCOPE 4: Satino_OHP
+2014-01-09T14:38:26.046 : snprocess_core : =============================================
+2014-01-09T14:38:26.064 : snprocess_core : == dusk obs: 2014-01-09T17:08:28.608
+2014-01-09T14:38:26.081 : snprocess_core : == dawn obs: 2014-01-10T06:20:01.824
+2014-01-09T14:38:26.098 : snprocess_core : == filters : 0(NoFilter) 
+2014-01-09T14:38:26.116 : snprocess_core : =============================================
+2014-01-09T14:38:26.135 : snprocess_core : No URL defined.
+2014-01-09T14:38:27.961 : snprocess_core : tel4 DJD1 = 2014-01-09T14:38:27.961  -  2014-01-09T07:34:33.024 = 0.2944
+2014-01-09T14:38:28.183 : snprocess_core : tel5 DJD1 = 2014-01-09T14:38:28.183  -  1858-11-17T00:00:00.000 = 2456667.1100
+2014-01-09T14:38:28.959 : snprocess_core : tel5 DJD2 = 2014-01-09T07:35:04.128  -  1858-11-17T00:00:00.000 =  2456666.8160
+2014-01-09T14:38:29.039 : snprocess_core : =============================================
+2014-01-09T14:38:29.057 : snprocess_core : == TELESCOPE 5: Faro_Banon
+2014-01-09T14:38:29.074 : snprocess_core : =============================================
+2014-01-09T14:38:29.092 : snprocess_core : == dusk obs: 2014-01-09T17:08:35.520
+2014-01-09T14:38:29.110 : snprocess_core : == dawn obs: 2014-01-10T06:20:26.880
+2014-01-09T14:38:29.127 : snprocess_core : == filters : 0(NoFilter) 9(L) 10(R) 11(G) 12(B) 
+2014-01-09T14:38:29.146 : snprocess_core : =============================================
+2014-01-09T14:38:29.165 : snprocess_core : No URL defined.
+2014-01-09T14:38:31.191 : snprocess_core : tel5 DJD1 = 2014-01-09T14:38:31.190  -  2014-01-09T07:35:04.128 = 0.2941
+2014-01-09T14:38:31.413 : snprocess_core : tel6 DJD1 = 2014-01-09T14:38:31.413  -  1858-11-17T00:00:00.000 = 2456667.1101
+2014-01-09T14:38:32.062 : snprocess_core : tel6 DJD2 = 2014-01-08T14:59:52.224  -  1858-11-17T00:00:00.000 =  2456666.1249
+2014-01-09T14:38:32.147 : snprocess_core : =============================================
+2014-01-09T14:38:32.166 : snprocess_core : == TELESCOPE 6: GFT_Mexico
+2014-01-09T14:38:32.184 : snprocess_core : =============================================
+2014-01-09T14:38:32.202 : snprocess_core : == dusk obs: 2014-01-09T01:37:43.968
+2014-01-09T14:38:32.220 : snprocess_core : == dawn obs: 2014-01-09T13:59:40.704
+2014-01-09T14:38:32.238 : snprocess_core : == filters : 16(z) 17(J) 18(H) 
+2014-01-09T14:38:32.258 : snprocess_core : =============================================
+2014-01-09T14:38:32.277 : snprocess_core : No URL defined.
+2014-01-09T14:38:34.502 : snprocess_core : tel6 DJD1 = 2014-01-09T14:38:34.502  -  2014-01-08T14:59:52.224 = 0.9852
+2014-01-09T14:38:35.149 : snprocess_core : tel6 DJD2 = 2014-01-08T14:59:52.224  -  2014-01-08T14:59:52.224 =  0.0000
+Sortie de SNprocess (2014-01-09 14:38:47)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+ros(common,ros_mysql,passroot)=sn_tarot
+--------------------------------------------------------
+2014-01-09T15:01:27.533 sqln_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql0
+MySQL use (0): ros
+MySQL use (0): ros
+2014-01-09T15:01:27.609 MySQL table cameras (0): 8
+2014-01-09T15:01:27.636 MySQL table filters (0): 19
+2014-01-09T15:01:27.658 MySQL table linkcamfilters (0): 33
+2014-01-09T15:01:27.681 MySQL table linkusertelescopes (0): 251
+2014-01-09T15:01:27.705 MySQL table telescopes (0): 7
+2014-01-09T15:01:27.732 MySQL table users (0): 67
+--------------------------------------------------------
+Site name: CADOR
+Site coordinates: GPS 5.71506 E 43.93179 634
+--------------------------------------------------------
+2014-01-09T15:01:27.829 sqln_galaxia_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql22
+MySQL use (0): galaxia
+MySQL table (0): galaxia
+--------------------------------------------------------
+Galaxia OK
+--------------------------------------------------------
+Mode de gestion des disques : pc_lycee_lvh
+2014-01-09T15:01:29.171 : snprocess_core : ---------------------------------------------
+2014-01-09T15:01:29.190 : snprocess_core : tel1 DJD1 = 2014-01-09T15:01:29.171  -  1858-11-17T00:00:00.000 = 2456667.1260
+2014-01-09T15:01:29.953 : snprocess_core : tel1 DJD2 = 2014-01-09T07:29:01.248  -  1858-11-17T00:00:00.000 =  2456666.8118
+2014-01-09T15:01:30.034 : snprocess_core : =============================================
+2014-01-09T15:01:30.050 : snprocess_core : == TELESCOPE 1: Tarot_Calern
+2014-01-09T15:01:30.068 : snprocess_core : =============================================
+2014-01-09T15:01:30.084 : snprocess_core : == dusk obs: 2014-01-09T17:04:02.496
+2014-01-09T15:01:30.101 : snprocess_core : == dawn obs: 2014-01-10T06:14:46.464
+2014-01-09T15:01:30.117 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T15:01:30.134 : snprocess_core : =============================================
+2014-01-09T15:01:30.152 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T15:01:30.169 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T15:01:30.185 : snprocess_core : url=http://tarot6.obs-azur.fr/ros/supernovae/zip/Tarot_Calern_20140108.zip
+Sortie de SNprocess (2014-01-09 15:05:07)
+ 
+ 
+                    SNPROCESS
+
+            Robotic Observatory Software
+ Traitement des images de galaxies pour supernovae
+
+Mode de gestion des disques : pc_lycee_lvh
+
+ros(common,ros_mysql,passroot)=sn_tarot
+ros(common,ros_mysql,pass)=ros123
+--------------------------------------------------------
+2014-01-09T15:05:19.534 sqln_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql0
+MySQL use (0): ros
+MySQL use (0): ros
+2014-01-09T15:05:19.616 MySQL table cameras (0): 8
+2014-01-09T15:05:19.638 MySQL table filters (0): 19
+2014-01-09T15:05:19.660 MySQL table linkcamfilters (0): 33
+2014-01-09T15:05:19.683 MySQL table linkusertelescopes (0): 251
+2014-01-09T15:05:19.707 MySQL table telescopes (0): 7
+2014-01-09T15:05:19.734 MySQL table users (0): 67
+--------------------------------------------------------
+Site name: CADOR
+Site coordinates: GPS 5.71506 E 43.93179 634
+--------------------------------------------------------
+2014-01-09T15:05:19.824 sqln_galaxia_connect : MySQL Connexion succeed to 127.0.0.1 for user ros
+MySQL connect (0): 127.0.0.1 ros mysql22
+MySQL use (0): galaxia
+MySQL table (0): galaxia
+--------------------------------------------------------
+Galaxia OK
+--------------------------------------------------------
+Mode de gestion des disques : pc_lycee_lvh
+2014-01-09T15:05:21.161 : snprocess_core : ---------------------------------------------
+2014-01-09T15:05:21.180 : snprocess_core : tel1 DJD1 = 2014-01-09T15:05:21.161  -  1858-11-17T00:00:00.000 = 2456667.1287
+2014-01-09T15:05:21.944 : snprocess_core : tel1 DJD2 = 2014-01-09T07:29:01.248  -  1858-11-17T00:00:00.000 =  2456666.8118
+2014-01-09T15:05:22.025 : snprocess_core : =============================================
+2014-01-09T15:05:22.041 : snprocess_core : == TELESCOPE 1: Tarot_Calern
+2014-01-09T15:05:22.058 : snprocess_core : =============================================
+2014-01-09T15:05:22.074 : snprocess_core : == dusk obs: 2014-01-09T17:04:02.496
+2014-01-09T15:05:22.091 : snprocess_core : == dawn obs: 2014-01-10T06:14:46.464
+2014-01-09T15:05:22.108 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T15:05:22.124 : snprocess_core : =============================================
+2014-01-09T15:05:22.142 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T15:05:22.159 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T15:05:22.176 : snprocess_core : url=http://tarot6.obs-azur.fr/ros/supernovae/zip/Tarot_Calern_20140108.zip
+2014-01-09T15:17:42.088 : snprocess_core : Zip file downloaded in C:/srv/work/ros/ressources/snprocess/zip/Tarot_Calern_20140108.zip
+2014-01-09T15:17:42.121 : snprocess_core : file copy -force -- C:/srv/work/ros/ressources/snprocess/zip/Tarot_Calern_20140108.zip C:/srv/work/ros/ressources/snprocess/tmp/Tarot_Calern_20140108.zip
+2014-01-09T15:17:42.138 : snprocess_core : exec C:/srv/develop/audela/bin/unzip.exe -u -d C:/srv/work/ros/ressources/snprocess/tmp C:/srv/work/ros/ressources/snprocess/tmp/Tarot_Calern_20140108.zip
+2014-01-09T15:17:44.978 : snprocess_core : 636 files unziped with success in C:/srv/work/ros/ressources/snprocess/tmp.
+2014-01-09T15:17:44.996 : snprocess_core : Logarithm FITS and convert to Jpeg for 636 files.
+2014-01-09T15:17:45.049 : snprocess_core : First image is C:/srv/work/ros/ressources/snprocess/jpeg/Tarot_Calern/20140108/IC2530.jpg
+2014-01-09T15:18:00.122 : snprocess_core : Delete all files in C:/srv/work/ros/ressources/snprocess/tmp
+2014-01-09T15:18:00.458 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T15:18:00.676 : snprocess_core : tel2 DJD1 = 2014-01-09T15:18:00.676  -  1858-11-17T00:00:00.000 = 2456667.1375
+2014-01-09T15:18:01.445 : snprocess_core : tel2 DJD2 = 2014-01-09T10:11:21.120  -  1858-11-17T00:00:00.000 =  2456666.9246
+2014-01-09T15:18:01.525 : snprocess_core : =============================================
+2014-01-09T15:18:01.542 : snprocess_core : == TELESCOPE 2: Tarot_Chili
+2014-01-09T15:18:01.558 : snprocess_core : =============================================
+2014-01-09T15:18:01.575 : snprocess_core : == dusk obs: 2014-01-10T00:29:26.880
+2014-01-09T15:18:01.591 : snprocess_core : == dawn obs: 2014-01-10T09:11:18.240
+2014-01-09T15:18:01.608 : snprocess_core : == filters : 1(C) 2(B) 3(V) 4(R) 5(I) 6(VN) 
+2014-01-09T15:18:01.625 : snprocess_core : =============================================
+2014-01-09T15:18:01.642 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/dss.zip
+2014-01-09T15:18:01.659 : snprocess_core : No snprocess.zip file in C:/srv/work/ros/ressources/snprocess/zip/refgaltarot.zip
+2014-01-09T15:18:01.676 : snprocess_core : url=http://tarotchili5.oamp.fr/ros/supernovae/zip/Tarot_Chili_20140108.zip
+2014-01-09T15:45:01.057 : snprocess_core : Zip file downloaded in C:/srv/work/ros/ressources/snprocess/zip/Tarot_Chili_20140108.zip
+2014-01-09T15:45:01.086 : snprocess_core : file copy -force -- C:/srv/work/ros/ressources/snprocess/zip/Tarot_Chili_20140108.zip C:/srv/work/ros/ressources/snprocess/tmp/Tarot_Chili_20140108.zip
+2014-01-09T15:45:01.104 : snprocess_core : exec C:/srv/develop/audela/bin/unzip.exe -u -d C:/srv/work/ros/ressources/snprocess/tmp C:/srv/work/ros/ressources/snprocess/tmp/Tarot_Chili_20140108.zip
+2014-01-09T15:45:03.436 : snprocess_core : 553 files unziped with success in C:/srv/work/ros/ressources/snprocess/tmp.
+2014-01-09T15:45:03.455 : snprocess_core : Logarithm FITS and convert to Jpeg for 553 files.
+2014-01-09T15:45:03.495 : snprocess_core : First image is C:/srv/work/ros/ressources/snprocess/jpeg/Tarot_Chili/20140108/ESO11938.jpg
+2014-01-09T15:45:16.636 : snprocess_core : Delete all files in C:/srv/work/ros/ressources/snprocess/tmp
+2014-01-09T15:45:16.929 : snprocess_core : file mkdir C:/srv/www/htdocs/sn_discovery/
+2014-01-09T15:45:17.163 : snprocess_core : tel3 DJD1 = 2014-01-09T15:45:17.163  -  1858-11-17T00:00:00.000 = 2456667.1564
+2014-01-09T15:45:17.873 : snprocess_core : tel3 DJD2 = 2014-01-08T21:40:49.440  -  1858-11-17T00:00:00.000 =  2456666.4033
+2014-01-09T15:45:17.969 : snprocess_core : =============================================
+2014-01-09T15:45:17.986 : snprocess_core : == TELESCOPE 3: Zadko_Australia
+2014-01-09T15:45:18.003 : snprocess_core : =============================================
+2014-01-09T15:45:18.020 : snprocess_core : == dusk obs: 2014-01-09T12:09:50.112
+2014-01-09T15:45:18.037 : snprocess_core : == dawn obs: 2014-01-09T20:38:56.832
+2014-01-09T15:45:18.054 : snprocess_core : == filters : 1(C) 5(I) 13(g) 14(r) 15(i) 
+2014-01-09T15:45:18.071 : snprocess_core : =============================================
+2014-01-09T15:45:18.088 : snprocess_core : No URL defined.
+
+Pas de galaxie a traiter (2014-01-09 15:45:18)
+2014-01-09T15:45:19.336 : snprocess_core : ---------------------------------------------
+2014-01-09T15:45:19.356 : snprocess_core : tel1 DJD1 = 2014-01-09T15:45:19.336  -  2014-01-09T07:29:01.248 = 0.3447
+2014-01-09T15:45:19.576 : snprocess_core : tel2 DJD1 = 2014-01-09T15:45:19.576  -  2014-01-09T10:11:21.120 = 0.2319
+2014-01-09T15:45:19.796 : snprocess_core : tel3 DJD1 = 2014-01-09T15:45:19.796  -  2014-01-08T21:40:49.440 = 0.7531
+2014-01-09T15:45:20.016 : snprocess_core : tel4 DJD1 = 2014-01-09T15:45:20.016  -  1858-11-17T00:00:00.000 = 2456667.1565
+2014-01-09T15:45:20.779 : snprocess_core : tel4 DJD2 = 2014-01-09T07:34:33.024  -  1858-11-17T00:00:00.000 =  2456666.8157
+2014-01-09T15:45:20.858 : snprocess_core : =============================================
+2014-01-09T15:45:20.875 : snprocess_core : == TELESCOPE 4: Satino_OHP
+2014-01-09T15:45:20.892 : snprocess_core : =============================================
+2014-01-09T15:45:20.909 : snprocess_core : == dusk obs: 2014-01-09T17:08:28.608
+2014-01-09T15:45:20.926 : snprocess_core : == dawn obs: 2014-01-10T06:20:01.824
+2014-01-09T15:45:20.943 : snprocess_core : == filters : 0(NoFilter) 
+2014-01-09T15:45:20.959 : snprocess_core : =============================================
+2014-01-09T15:45:20.976 : snprocess_core : No URL defined.
+2014-01-09T15:45:22.799 : snprocess_core : tel4 DJD1 = 2014-01-09T15:45:22.799  -  2014-01-09T07:34:33.024 = 0.3409
+2014-01-09T15:45:23.019 : snprocess_core : tel5 DJD1 = 2014-01-09T15:45:23.019  -  1858-11-17T00:00:00.000 = 2456667.1565
+2014-01-09T15:45:23.781 : snprocess_core : tel5 DJD2 = 2014-01-09T07:35:04.128  -  1858-11-17T00:00:00.000 =  2456666.8160
+2014-01-09T15:45:23.859 : snprocess_core : =============================================
+2014-01-09T15:45:23.875 : snprocess_core : == TELESCOPE 5: Faro_Banon
+2014-01-09T15:45:23.891 : snprocess_core : =============================================
+2014-01-09T15:45:23.908 : snprocess_core : == dusk obs: 2014-01-09T17:08:35.520
+2014-01-09T15:45:23.924 : snprocess_core : == dawn obs: 2014-01-10T06:20:26.880
+2014-01-09T15:45:23.940 : snprocess_core : == filters : 0(NoFilter) 9(L) 10(R) 11(G) 12(B) 
+2014-01-09T15:45:23.956 : snprocess_core : =============================================
+2014-01-09T15:45:23.973 : snprocess_core : No URL defined.
+2014-01-09T15:45:25.995 : snprocess_core : tel5 DJD1 = 2014-01-09T15:45:25.995  -  2014-01-09T07:35:04.128 = 0.3405
+2014-01-09T15:45:26.215 : snprocess_core : tel6 DJD1 = 2014-01-09T15:45:26.215  -  1858-11-17T00:00:00.000 = 2456667.1566
+2014-01-09T15:45:26.996 : snprocess_core : tel6 DJD2 = 2014-01-09T14:59:50.496  -  1858-11-17T00:00:00.000 =  2456667.1249
+2014-01-09T15:45:27.076 : snprocess_core : =============================================
+2014-01-09T15:45:27.093 : snprocess_core : == TELESCOPE 6: GFT_Mexico
+2014-01-09T15:45:27.109 : snprocess_core : =============================================
+2014-01-09T15:45:27.126 : snprocess_core : == dusk obs: 2014-01-10T01:38:30.624
+2014-01-09T15:45:27.142 : snprocess_core : == dawn obs: 2014-01-10T13:59:43.296
+2014-01-09T15:45:27.159 : snprocess_core : == filters : 16(z) 17(J) 18(H) 
+2014-01-09T15:45:27.175 : snprocess_core : =============================================
+2014-01-09T15:45:27.192 : snprocess_core : No URL defined.
+2014-01-09T15:45:29.416 : snprocess_core : tel6 DJD1 = 2014-01-09T15:45:29.416  -  2014-01-09T14:59:50.496 = 0.0317
+2014-01-09T15:55:20.755 : snprocess_core : ---------------------------------------------
+2014-01-09T15:55:20.801 : snprocess_core : tel1 DJD1 = 2014-01-09T15:55:20.755  -  2014-01-09T07:29:01.248 = 0.3516
+2014-01-09T15:55:21.020 : snprocess_core : tel2 DJD1 = 2014-01-09T15:55:21.020  -  2014-01-09T10:11:21.120 = 0.2389
+2014-01-09T15:55:21.261 : snprocess_core : tel3 DJD1 = 2014-01-09T15:55:21.261  -  2014-01-08T21:40:49.440 = 0.7601
+2014-01-09T15:55:23.687 : snprocess_core : tel4 DJD1 = 2014-01-09T15:55:23.687  -  2014-01-09T07:34:33.024 = 0.3478
+2014-01-09T15:55:26.114 : snprocess_core : tel5 DJD1 = 2014-01-09T15:55:26.114  -  2014-01-09T07:35:04.128 = 0.3475
+2014-01-09T15:55:30.750 : snprocess_core : tel6 DJD1 = 2014-01-09T15:55:30.750  -  2014-01-09T14:59:50.496 = 0.0387
+2014-01-09T16:05:21.654 : snprocess_core : ---------------------------------------------
+2014-01-09T16:05:21.673 : snprocess_core : tel1 DJD1 = 2014-01-09T16:05:21.654  -  2014-01-09T07:29:01.248 = 0.3586
+2014-01-09T16:05:21.892 : snprocess_core : tel2 DJD1 = 2014-01-09T16:05:21.892  -  2014-01-09T10:11:21.120 = 0.2458
+2014-01-09T16:05:22.112 : snprocess_core : tel3 DJD1 = 2014-01-09T16:05:22.112  -  2014-01-08T21:40:49.440 = 0.7670
+2014-01-09T16:05:24.541 : snprocess_core : tel4 DJD1 = 2014-01-09T16:05:24.540  -  2014-01-09T07:34:33.024 = 0.3548
+2014-01-09T16:05:26.968 : snprocess_core : tel5 DJD1 = 2014-01-09T16:05:26.968  -  2014-01-09T07:35:04.128 = 0.3544
+2014-01-09T16:05:31.603 : snprocess_core : tel6 DJD1 = 2014-01-09T16:05:31.603  -  2014-01-09T14:59:50.496 = 0.0456
+2014-01-09T16:15:22.452 : snprocess_core : ---------------------------------------------
+2014-01-09T16:15:22.472 : snprocess_core : tel1 DJD1 = 2014-01-09T16:15:22.452  -  2014-01-09T07:29:01.248 = 0.3655
+2014-01-09T16:15:22.693 : snprocess_core : tel2 DJD1 = 2014-01-09T16:15:22.692  -  2014-01-09T10:11:21.120 = 0.2528
+2014-01-09T16:15:22.928 : snprocess_core : tel3 DJD1 = 2014-01-09T16:15:22.928  -  2014-01-08T21:40:49.440 = 0.7740
+2014-01-09T16:15:25.355 : snprocess_core : tel4 DJD1 = 2014-01-09T16:15:25.355  -  2014-01-09T07:34:33.024 = 0.3617
+2014-01-09T16:15:27.783 : snprocess_core : tel5 DJD1 = 2014-01-09T16:15:27.783  -  2014-01-09T07:35:04.128 = 0.3614
+2014-01-09T16:15:32.421 : snprocess_core : tel6 DJD1 = 2014-01-09T16:15:32.421  -  2014-01-09T14:59:50.496 = 0.0526
+2014-01-09T16:25:22.639 : snprocess_core : ---------------------------------------------
+2014-01-09T16:25:22.661 : snprocess_core : tel1 DJD1 = 2014-01-09T16:25:22.639  -  2014-01-09T07:29:01.248 = 0.3725
+2014-01-09T16:25:22.882 : snprocess_core : tel2 DJD1 = 2014-01-09T16:25:22.882  -  2014-01-09T10:11:21.120 = 0.2597
+2014-01-09T16:25:23.110 : snprocess_core : tel3 DJD1 = 2014-01-09T16:25:23.110  -  2014-01-08T21:40:49.440 = 0.7809
+2014-01-09T16:25:25.550 : snprocess_core : tel4 DJD1 = 2014-01-09T16:25:25.550  -  2014-01-09T07:34:33.024 = 0.3687
+2014-01-09T16:25:27.978 : snprocess_core : tel5 DJD1 = 2014-01-09T16:25:27.978  -  2014-01-09T07:35:04.128 = 0.3683
+2014-01-09T16:25:32.614 : snprocess_core : tel6 DJD1 = 2014-01-09T16:25:32.614  -  2014-01-09T14:59:50.496 = 0.0595
+2014-01-09T16:35:24.259 : snprocess_core : ---------------------------------------------
+2014-01-09T16:35:24.274 : snprocess_core : tel1 DJD1 = 2014-01-09T16:35:24.259  -  2014-01-09T07:29:01.248 = 0.3794
+2014-01-09T16:35:24.508 : snprocess_core : tel2 DJD1 = 2014-01-09T16:35:24.508  -  2014-01-09T10:11:21.120 = 0.2667
+2014-01-09T16:35:24.742 : snprocess_core : tel3 DJD1 = 2014-01-09T16:35:24.742  -  2014-01-08T21:40:49.440 = 0.7879
+2014-01-09T16:35:27.223 : snprocess_core : tel4 DJD1 = 2014-01-09T16:35:27.223  -  2014-01-09T07:34:33.024 = 0.3756
+2014-01-09T16:35:29.687 : snprocess_core : tel5 DJD1 = 2014-01-09T16:35:29.687  -  2014-01-09T07:35:04.128 = 0.3753
+2014-01-09T16:35:34.399 : snprocess_core : tel6 DJD1 = 2014-01-09T16:35:34.399  -  2014-01-09T14:59:50.496 = 0.0665
+2014-01-09T16:45:24.407 : snprocess_core : ---------------------------------------------
+2014-01-09T16:45:24.423 : snprocess_core : tel1 DJD1 = 2014-01-09T16:45:24.407  -  2014-01-09T07:29:01.248 = 0.3864
+2014-01-09T16:45:24.657 : snprocess_core : tel2 DJD1 = 2014-01-09T16:45:24.657  -  2014-01-09T10:11:21.120 = 0.2737
+2014-01-09T16:45:24.891 : snprocess_core : tel3 DJD1 = 2014-01-09T16:45:24.891  -  2014-01-08T21:40:49.440 = 0.7949
+2014-01-09T16:45:27.371 : snprocess_core : tel4 DJD1 = 2014-01-09T16:45:27.371  -  2014-01-09T07:34:33.024 = 0.3826
+2014-01-09T16:45:29.852 : snprocess_core : tel5 DJD1 = 2014-01-09T16:45:29.852  -  2014-01-09T07:35:04.128 = 0.3822
+2014-01-09T16:45:34.547 : snprocess_core : tel6 DJD1 = 2014-01-09T16:45:34.547  -  2014-01-09T14:59:50.496 = 0.0734
+2014-01-09T16:55:26.522 : snprocess_core : ---------------------------------------------
+2014-01-09T16:55:26.537 : snprocess_core : tel1 DJD1 = 2014-01-09T16:55:26.522  -  2014-01-09T07:29:01.248 = 0.3933
+2014-01-09T16:55:26.771 : snprocess_core : tel2 DJD1 = 2014-01-09T16:55:26.771  -  2014-01-09T10:11:21.120 = 0.2806
+2014-01-09T16:55:27.005 : snprocess_core : tel3 DJD1 = 2014-01-09T16:55:27.005  -  2014-01-08T21:40:49.440 = 0.8018
+2014-01-09T16:55:29.486 : snprocess_core : tel4 DJD1 = 2014-01-09T16:55:29.486  -  2014-01-09T07:34:33.024 = 0.3895
+2014-01-09T16:55:31.966 : snprocess_core : tel5 DJD1 = 2014-01-09T16:55:31.966  -  2014-01-09T07:35:04.128 = 0.3892
+2014-01-09T16:55:36.677 : snprocess_core : tel6 DJD1 = 2014-01-09T16:55:36.677  -  2014-01-09T14:59:50.496 = 0.0804
+2014-01-09T17:05:27.819 : snprocess_core : ---------------------------------------------
+2014-01-09T17:05:27.834 : snprocess_core : tel1 DJD1 = 2014-01-09T17:05:27.819  -  2014-01-09T07:29:01.248 = 0.4003
+2014-01-09T17:05:28.100 : snprocess_core : tel2 DJD1 = 2014-01-09T17:05:28.100  -  2014-01-09T10:11:21.120 = 0.2876
+2014-01-09T17:05:28.334 : snprocess_core : tel3 DJD1 = 2014-01-09T17:05:28.334  -  2014-01-08T21:40:49.440 = 0.8088
+2014-01-09T17:05:30.798 : snprocess_core : tel4 DJD1 = 2014-01-09T17:05:30.798  -  2014-01-09T07:34:33.024 = 0.3965
+2014-01-09T17:05:33.263 : snprocess_core : tel5 DJD1 = 2014-01-09T17:05:33.263  -  2014-01-09T07:35:04.128 = 0.3962
+2014-01-09T17:05:37.959 : snprocess_core : tel6 DJD1 = 2014-01-09T17:05:37.959  -  2014-01-09T14:59:50.496 = 0.0874
+Sortie de SNprocess (2014-01-09 17:07:41)
+ 
+ 
