@@ -30,13 +30,13 @@
             <div role="main" class="ui-content">
                 <script type="text/javascript" src="js/qcm_qualifier.js"></script> 
                 <script type="text/javascript" src="js/slider.js"></script>
-                <br> <br/><br> <br/><br> <br/><br> <br/><br> <br/>
+                <br> 
                 <center>
+                    <br><br/>
                     <a id="btnImageSn" class="ui-btn bouton" data-role="button" onclick="window.location.href='qualifierSN.jsp'" >Supernovae</a>
-                    <br> <br/><br> <br/><br> <br/>
+                  
                     <a id="btnImageEST" class="ui-btn bouton" data-role="button" onclick="window.location.href='qualifierEST.jsp'">Kilonovae</a>
-                </center>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                </center>               
                 <%@include file="includes/footer.jspf" %>
             </div>
         </div>      

@@ -11,7 +11,7 @@
     String reps[] = trame.split("\\|", -1);
     int nbBonnesReponses = 0;
     // les bonnes réponses                       |
-    int[] bonnesReponses = {2,3,3,1,2,3,1,2,3,1,3,2,2,2,3,1,1,2,2,2,3,2};
+    int[] bonnesReponses = {1,1,1,1,1,2,2,2,3,1,1,2,2,2,3,2};
     for (int i = 0; i < bonnesReponses.length; i++) {
         if (Integer.parseInt(reps[i]) == bonnesReponses[i])
             nbBonnesReponses++;

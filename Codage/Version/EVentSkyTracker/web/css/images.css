@@ -4,22 +4,11 @@
     position:relative;
     width: auto;
     height: 300px;
-    margin-left: 28%;
-}
-
-#ref {
-    position:relative;
-    width: auto;
-    height: 300px;
-    margin-right: 28%;
+    margin: auto;
 }
 
 /* taille de la video en pixels */
 #video img {
-    position: relative;
-    width: auto;
-}
-#ref img {
     position: relative;
     width: auto;
 }

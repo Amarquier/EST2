@@ -63,22 +63,19 @@
                 </p>
                 <p>Cette nucléosynthèse est accompagnée d’une perte de masse qui correspond, selon la formule E=MC², à l’énergie produite. Cette réaction fait que l’étoile évolue et, a donc un début et une fin. </p>
               -->  
-                <br> <br/>
-                <br> <br/>
-                <br> <br/>
-                <br> <br/>
+                
                 
                 
                 <center>
-                    
+               
+                    <br><br/>    
                <a id="btnTutoSn" class="ui-btn bouton" data-role="button"> Supernovae  </a>
-               <br> <br/> <br> <br/>  <br> <br/>      
+                   
                <a id="btnPageSvt1" class="ui-btn bouton" data-role="button"> Kilonovae</a>
                
                 <center/>
                 
-               <br> <br/>
-                <br/> <br/>
+               
             </div>
             <br><br>
             <footer>
@@ -111,8 +108,8 @@
                 <br> </br> 
                 
                 <center><div class="mesImages">
-                        <img style="width: 400px;"
-                             src="images/intensite2.gif"/>
+                        <img style="width: 300px;"
+                             src="images/kilonovae2.gif"/>
                         <center> <p> Fig.1 Système binaire d’étoiles : </p> </center>
                         
                         <center> <a href="https://fr.wikipedia.org/wiki/%C3%89toile_binaire">https://fr.wikipedia.org/wiki/%C3%89toile_binaire </a> </center>
@@ -153,19 +150,15 @@
                 <br/><br/>
                 
                 <center> <p>Moins de douze heures plus tard, des  images de la source de ces ondes ont été observées par les    télescopes du Chili et par la caméra à énergie sombre de l’Observatoire de Cerro Tololo. </p> </center>
-                <h3>3-1 Explosion d’une étoile isolée massive ( masse supérieure à 8 masses solaires)</h3>
-                
+                               
                 <center><div class="mesImages">
-                        <img style="width: 400px;"
+                        <img style="width: 300px;"
                              src="images/tutoKilo3.gif"/>                       
                     </div></center>
-                <p>Après un flash de quelques minutes, la supernova aura un éclat maximum au bout de  10 jours, mais elle restera visible presque 3 mois.</p>
-                <p>Pour des étoiles encore plus massives, de masses supérieures à 40 masses solaires, la fin est encore plus spectaculaire. L’explosion génère un <B> sursaut gamma long.</B> </p>
-                <center><div class="mesImages">
-                        <img style="width: 200px;"
-                             src="images/tuto4.png"/>                       
-                    </div></center>
-                <p>Tout à l’air de se dérouler très rapidement : l’étoile émet des jets de matière ultra relativistes qui vont modifier l’espace-temps. La contraction du temps autour de ces jets  permettra l’observation de l’éclat maximum entre quelques secondes et 20 minutes. Le phénomène est tellement brillant qu’il peut être comparé à l’éclat de 4000 Galaxies ! Un sursaut gamma long n’est observable qu’une semaine. Il laisse  derrière lui un trou noir. </p>
+                <center> <p> <B> Fig. 2 Kilonova observé le 17-08-2017 </B> </p> </center>
+                <p>Ces dernières observations ont été essentielles, car LIGO et VIRGO seuls ne pouvaient pas déterminer avec précision d’où provenait  les ondes gravitationnelles.</p>
+                
+               
                 <div class="btn">
                     <div class="ui-grid-a">
                         <div class= "ui-block-a">
@@ -199,23 +192,11 @@
             
             <div data-role="content">
                 <br/><br/>
-                <h3>3-2 Explosion d’un couple d’étoiles</h3>
-                <p>Il arrive que l’étoile massive fasse partie d’un couple d’étoiles. On l’appelle aussi système binaire : deux étoiles orbitent autour d’un centre de gravité commun.</p>
-                <center><div class="mesImages">
-                        <img style="width: 300px;"
-                             src="images/tuto5.gif"/>                       
-                    </div></center>
-                <p>Une étoile en fin de vie absorbe la matière de la seconde étoile du système binaire.</p>
-                <center><div class="mesImages">
-                        <img style="width: 300px;"
-                             src="images/tuto6.png"/>                      
-                    </div></center>
-                <p>Cet échange provoque l’allumage des réactions nucléaires en surface et l’étoile explose dans sa totalité, produisant une <b>supernova thermonucléaire.</b>Le phénomène atteint son éclat maximum en 15 jours et est observable pendant 3 mois.  </p>
-                <p>Si les orbites des deux étoiles sont serrées, la relativité générale prédit une fusion de celles-ci accompagnée d’une émission d’ondes gravitationnelles.  Comme dans le cas des étoiles très massives,  le système va émettre des jets ultra relativistes. Le phénomène est connu sous le nom de <Bsursaut gamma court. La contraction relativiste du temps autour des jets fait que l’éclat maximum soit observable au bout de 10 secondes au maximum. Le phénomène sera observable seulement 1 semaine.  </p>
-                    <center><div class="mesImages">
-                            <img style="width: 300px;"
-                                 src="images/tuto7.png"/>                      
-                        </div></center>
+                
+                <p>Le scénario est le suivant : il y a onze milliards d'années, dans la galaxie NGC4993,  deux étoiles massives étaient nées. Elles ont toutes les deux vécu des vies courtes et brillantes, mourant dans des explosions de supernova et laissant derrière elles deux étoiles à neutrons en orbite l'une autour de l'autre. Ce système émet en permanence des ondes gravitationnelles,  ce qui fait que son énergie baisse. Par conséquent, les étoiles se rapprochent de plus en plus et finissent par fusionner. Le résultat est une grosse explosion accompagnée par une émission d’ondes gravitationnelles, de la lumière visible et infrarouge, des sursauts gamma courts et des ondes radio.</p>
+                
+                <p>Cette nouvelle source  lumineuse appelée kilonova, est visible  seulement quelques jours jusqu’à deux semaines ( une dizaine de jours dans le cas du 17 Août 2017 ).</p>
+                
                     <br/>
                     <div class="btn">
                         <div class="ui-grid-a">
@@ -251,51 +232,18 @@
             
             <div data-role="content">
                 <br/><br/>
-                <h3>En résumé</h3>
-                <table>
-                    <tr>
-                        <td>       </td>
-                        <td><B>Étoile unique</B> </td>
-                        <td><B>Couple d’étoiles</B> </td>
-                    <tr/>            
-
-                    <tr>
-                        <td><B>Masse modérée</B></td>
-                        <td><FONT color="blue"><B>Supernova à effondrement de cœur</B></FONT> <br/>
-                            Masse 8 à 40 masses solaires<br/>
-                            Éclat absolu ~ 0,5 Galaxies<br/>
-                            Éclat maximum ~ 10 jours + flash<br/>
-                            Observation ~ 3 mois<br/>
-                            Résidu : étoile à neutron<br/>
-                            Découverte : surveys optiques</td>
-                        <td><B><FONT color="blue">Supernova thermonucléaires</B></FONT><br/>
-                            Masse 3 à 8 masses solaires<br/>
-                            Éclat absolu ~ 2 Galaxies<br/>
-                            Éclat maximum ~ 15 jours<br/>
-                            Observation ~ 3 mois<br/> 
-                            Résidu : aucun<br/>
-                            Découverte : surveys optiques</td> 
-                    <tr/>
-                        
-                    <tr>
-                        <td><B>Grande masse</B></td>
-                        <td><FONT color="blue"><B>Sursaut gamma long</B></FONT> <br/>
-                            Masse > 40 masses solaires<br/>
-                            Éclat absolu ~ 4000 Galaxies<br/>
-                            Éclat maximum ~ 0 à 20 minutes<br/>
-                            Observation ~ 1 semaine<br/>  
-                            Résidu : Trou noir<br/>
-                            Découverte : Satellites gamma<br/>
-                        <td><FONT color="blue"><B>Sursaut gamma court</B></FONT> <br/>
-                            Masse ~ quelques masses solaires<br/>
-                            Éclat absolu ~ 300 Galaxies<br/>
-                            Éclat maximum < 10 secondes<br/>
-                            Observation ~ 1 semaine<br/>
-                            Résidu : Trou noir<br/>
-                            Découverte : Satellites gamma<br/>
-                    <tr/>
-                </table>
-                <br/><br/>
+                
+                <center><div class="mesImages">
+                        <img style="width: 300px;"
+                             src="images/tutokilo.png"/>                       
+                    </div></center>
+                <center> <p> <B> Figure 3. Ondes électromagnétiques émises lors d’une collision des deux étoiles à neutrons </center> </p> </B>
+                    
+               
+                <p> Pourquoi une kilonova est-t-elle si importante ? En plus de nous permettre d'étudier la physique extrême dans les objets les plus denses de l'Univers, on pense que ces événements sont responsables de la production de la plupart des éléments lourds tels que l'or et le platine. </p>
+                
+                <p>Même si la détection de ce kilonova a été possible grâce à plusieurs instruments très sophistiques, tel que les interféromètres à ondes gravitationnelles, les détecteurs de rayons gamma, les satellites tel que Fermi et INTEGRAL, un point est certain : les observations au sol, en coordination internationale, ont été indispensables. Plusieurs télescopes entre 40 cm et 1m ont détecté le kilonova du Août 2017 et ont contribué à l’établissement de la courbe de luminosité associée à ce phénomène. On estime donc que, lors des prochaines détections, les astronomes amateurs, ainsi que les personnes intéressées auront un rôle à jouer.</p>
+                
                 <div class="btn">
                     <div class="ui-grid-a">
                         <div class= "ui-block-a">
@@ -719,10 +667,12 @@
                 </div>
                     
                 <br><br><br>
-            </div>
+            
                                 <footer>
                                     <%@ include file="/includes/footer.jspf" %>
                                 </footer>
+                </div>                
     
     </body>
 </html>
+

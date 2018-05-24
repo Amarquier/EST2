@@ -17,6 +17,7 @@ package com.persistence;
 import com.metier.SmtpSend;
 import java.sql.*;
 import java.util.ArrayList;
+import com.persistence.ConnexionMySQL;
 
 public class Evenement {
 
@@ -161,19 +162,21 @@ public class Evenement {
         this.nouveau = nouveau;
     }
     
-     public static boolean getNew(Connection con) throws Exception {
+     public static boolean getNew() throws Exception {
         System.out.println("getnew");
-        String queryString = "select * from evenement "
-                + "where nouveau='" + 1 + "'order by date desc ";
-        Statement lStat = con.createStatement(
+        Connection con = ConnexionMySQL.newConnexion();
+         Statement lStat = con.createStatement(
                 ResultSet.TYPE_SCROLL_INSENSITIVE,
                 ResultSet.CONCUR_READ_ONLY);
+        String queryString = "select * from evenement "
+                + "where nouveau='" + 1 + "'order by date desc ";   
         ResultSet lResult = lStat.executeQuery(queryString);
         return lResult.next();
     }
     
-    public static void cocherNew(Connection con) throws Exception {
-        System.out.println("cochernew");    
+    public static void cocherNew() throws Exception {
+        System.out.println("cochernew");   
+        Connection con = ConnexionMySQL.newConnexion();
         Statement lStat = con.createStatement(
                 ResultSet.TYPE_SCROLL_INSENSITIVE,
                 ResultSet.CONCUR_UPDATABLE);
@@ -183,20 +186,19 @@ public class Evenement {
         int lResult = lStat.executeUpdate(query);
     }
     
-    public static void autoMail (Connection con) throws Exception {
+    public static void autoMail () throws Exception {
         System.out.println("autoMail");           
         String queryString = "SELECT email FROM `user`";
+        Connection con = ConnexionMySQL.newConnexion();
         Statement lStat = con.createStatement(
                 ResultSet.TYPE_SCROLL_INSENSITIVE,
                 ResultSet.CONCUR_READ_ONLY);
         ResultSet lResult = lStat.executeQuery(queryString);
+        String email = null;
         while(lResult.next()){                 
-            String email = lResult.getString(1);
-            int row = lResult.getRow();   
-                System.out.println("Données contenues dans la ligne "+row);
-                System.out.println(" email :"+email );                          
-            SmtpSend.sendMessage("Nouvel événement ", "Un nouvel événement a été découvert  venez voir !!! " , email);  
+            email += lResult.getString(1) + ", ";             
             }
+        SmtpSend.sendMessage("Nouvel événement ", "Un nouvel événement a été découvert  venez voir ! " , email);
     } 
     
 
