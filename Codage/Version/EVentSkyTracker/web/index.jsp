@@ -22,7 +22,7 @@
             <div role="main" class="ui-content">
 
                 <br/><br/>
-                <h4>Cette application de science participative (crowdsourcing science) va  
+                <h4>chiabCette application de science participative (crowdsourcing science) va  
                     vous permettre de découvrir des évènements liées à des phénomènes cataclysmique.</h4>
                 <center><div class="mesImages">
                         <img style="border-radius: 8px;  " 
