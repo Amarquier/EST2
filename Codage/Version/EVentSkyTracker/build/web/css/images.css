@@ -1,0 +1,93 @@
+
+/* position du bloc qui contient la video */
+#video {
+    position:relative;
+    width: auto;
+    height: 300px;
+    margin-left: 28%;
+}
+
+#ref {
+    position:relative;
+    width: auto;
+    height: 300px;
+    margin-right: 28%;
+}
+
+/* taille de la video en pixels */
+#video img {
+    position: relative;
+    width: auto;
+}
+#ref img {
+    position: relative;
+    width: auto;
+}
+
+/* centre les éléments suivants */
+#video img,#divSliderVideo,#divCanvas {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#sliderDelai,#regle {
+    font-size: xx-large;
+     width: 100%;
+}
+
+#divSliderVideo {
+    width: 100%;
+}
+
+#canvas {
+    height: 20px;
+}
+
+#boutons {
+    margin-top: -130px; /* les boutons sortent trop bas ? */
+}
+
+/* Hide the number input */
+#divSliderVideo input {
+    display: none;
+}
+
+/* corrige le décalage dû à l'absence du label */
+#divSliderVideo .ui-slider-track {
+    margin-left: 15px;
+}
+
+
+.bouton {
+    height: 140px !important;
+    font-size: xx-large;
+    color:white;
+    background:#974e51;
+    border-radius: 10px;
+    background-color: #169db3;
+    
+    
+}
+#btnTutoSn,#btnPageSvt1,#btnImageEST,#btnImageSn{
+    background-color: #169db3;
+}
+
+.bouton_a {
+    height: 140px !important;
+    font-size: xx-large;
+    color:white;
+    background:#974e51;
+    border-radius: 10px;
+}
+#btnQualSn,#btnQualEST{
+    background-color: #ad192b;
+    color:white;
+    
+}
+/* Couleurs des boutons : ad192b 169db3 */
+
+
+

@@ -1,0 +1,10 @@
+SMAP
+candidate_005freq_jsp.java
+JSP
+*S JSP
+*F
++ 0 candidate_req.jsp
+WEB-INF/candidate_req.jsp
+*L
+6,60:49
+*E
