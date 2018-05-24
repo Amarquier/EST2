@@ -25,7 +25,7 @@
     <body>
         <div class="page" data-role="page" id="PageQualifier">
             <%@include file="includes/session.jspf" %>
-            <%@include file="includes/qualifierHeader.jspf" %>
+            <%@include file="includes/qualifierHeaderEST.jspf" %>
             <%                ArrayList<Evenement> tabEvent = null;
                 tabEvent = Evenement.liste(con);
             %>
