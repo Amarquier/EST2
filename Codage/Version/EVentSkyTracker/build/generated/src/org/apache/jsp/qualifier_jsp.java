@@ -171,13 +171,13 @@ public final class qualifier_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <div role=\"main\" class=\"ui-content\">\n");
       out.write("                <script type=\"text/javascript\" src=\"js/qcm_qualifier.js\"></script> \n");
       out.write("                <script type=\"text/javascript\" src=\"js/slider.js\"></script>\n");
-      out.write("                <br> <br/><br> <br/><br> <br/><br> <br/><br> <br/>\n");
+      out.write("                <br> \n");
       out.write("                <center>\n");
+      out.write("                    <br><br/>\n");
       out.write("                    <a id=\"btnImageSn\" class=\"ui-btn bouton\" data-role=\"button\" onclick=\"window.location.href='qualifierSN.jsp'\" >Supernovae</a>\n");
-      out.write("                    <br> <br/><br> <br/><br> <br/>\n");
+      out.write("                  \n");
       out.write("                    <a id=\"btnImageEST\" class=\"ui-btn bouton\" data-role=\"button\" onclick=\"window.location.href='qualifierEST.jsp'\">Kilonovae</a>\n");
-      out.write("                </center>\n");
-      out.write("                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>\n");
+      out.write("                </center>               \n");
       out.write("                ");
       out.write("\r\n");
       out.write("\r\n");
