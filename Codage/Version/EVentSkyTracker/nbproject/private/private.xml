@@ -3,9 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/test/com/persistence/CandidateESTTest.java</file>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/web/SQLScripts/7_init_admin.sql</file>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/test/com/persistence/CandidateSNTest.java</file>
+            <file>file:/home/snir2g1/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/DiscoApplication.java</file>
+            <file>file:/home/snir2g1/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/ESTApplication.java</file>
         </group>
     </open-files>
 </project-private>
