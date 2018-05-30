@@ -4,22 +4,11 @@
     position:relative;
     width: auto;
     height: 300px;
-    margin-left: 28%;
-}
-
-#ref {
-    position:relative;
-    width: auto;
-    height: 300px;
-    margin-right: 28%;
+    margin: auto;
 }
 
 /* taille de la video en pixels */
 #video img {
-    position: relative;
-    width: auto;
-}
-#ref img {
     position: relative;
     width: auto;
 }
@@ -77,10 +66,11 @@
 
 .bouton_a {
     height: 140px !important;
-    font-size: xx-large;
+    font-size: 240;
     color:white;
     background:#974e51;
-    border-radius: 10px;
+    border-radius: 100px;
+    background-color: #169db3;
 }
 #btnQualSn,#btnQualEST{
     background-color: #ad192b;

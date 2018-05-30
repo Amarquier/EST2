@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/test/com/persistence/CandidateESTTest.java</file>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/web/SQLScripts/7_init_admin.sql</file>
-            <file>file:/home/snir2g2/Bureau/eventSkyTracker/test/com/persistence/CandidateSNTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/qualifier.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/css/images.css</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/qualifierSN.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_resultatQuestionnaireAccueil.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/tuto.jsp</file>
         </group>
     </open-files>
 </project-private>

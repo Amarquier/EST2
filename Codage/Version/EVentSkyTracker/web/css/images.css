@@ -66,10 +66,11 @@
 
 .bouton_a {
     height: 140px !important;
-    font-size: xx-large;
+    font-size: 240;
     color:white;
     background:#974e51;
-    border-radius: 10px;
+    border-radius: 100px;
+    background-color: #169db3;
 }
 #btnQualSn,#btnQualEST{
     background-color: #ad192b;

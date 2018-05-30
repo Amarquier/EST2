@@ -26,7 +26,7 @@ public final class qualifierEST_jsp extends org.apache.jasper.runtime.HttpJspBas
     _jspx_dependants = new java.util.ArrayList<String>(5);
     _jspx_dependants.add("/includes/head.jspf");
     _jspx_dependants.add("/includes/session.jspf");
-    _jspx_dependants.add("/includes/qualifierHeader.jspf");
+    _jspx_dependants.add("/includes/qualifierHeaderEST.jspf");
     _jspx_dependants.add("/includes/user.jspf");
     _jspx_dependants.add("/includes/footer.jspf");
   }
@@ -122,8 +122,7 @@ public final class qualifierEST_jsp extends org.apache.jasper.runtime.HttpJspBas
         com.persistence.User user = null;
         if (maSession != null) {
             user = maSession.getUser();
-        }
-        
+        }       
     
       out.write("\n");
       out.write("            ");
@@ -133,6 +132,9 @@ public final class qualifierEST_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("    <div class=\"header\" data-role=\"header\" data-id=\"main-header\" data-tap-toggle=\"false\" \n");
       out.write("        data-theme=\"a\" data-position=\"fixed\" data-fullscreen=\"true\">\n");
       out.write("        <h1>Images</h1>\n");
+      out.write("        <a href=\"#panelQualifier\" \n");
+      out.write("       class=\"ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bullets ui-btn-right\">\n");
+      out.write("    </a>\n");
       out.write("    <!-- un include dans un include : on ne peut pas utiliser @include -->\n");
       out.write("    <div class=\"gradeUser\">\n");
       out.write("        ");
@@ -214,10 +216,9 @@ public final class qualifierEST_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("                </div>\n");
       out.write("                <br/>\n");
       out.write("                <div id=\"galax\">\n");
-      out.write("                    <div id=\"video\" align=\"center\">\n");
-      out.write("                    <img id=\"img0\" src=\"images/tuto103.jpg\" />\n");
+      out.write("                    <div id=\"video\" >\n");
       out.write("                    </div>\n");
-      out.write("                    <div id=\"ref\" align=\"center\">\n");
+      out.write("                    <div id=\"ref\" \">\n");
       out.write("                        <img id=\"img0\" src=\"images/tuto103.jpg\" />\n");
       out.write("                    </div>\n");
       out.write("                </div>\n");

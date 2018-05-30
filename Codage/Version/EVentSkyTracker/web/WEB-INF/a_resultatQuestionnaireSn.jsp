@@ -73,8 +73,8 @@
                 <img id="imgref" alt=".... aucune référence ...." sr  c="/jpeg/refgal/<%=can.getNomImage()%>.jpg">
             </div>
             <table class="infosTable">
-                <td class="texteCentre" id="dateImages"><%=can.getDateDisco()%></td>
-                <td class="texteCentre" id="numImages" >(<%=i%>/<%=CandidateSN.size(con)%>)</td>
+                <td class="texteCentre" id="dateImages"><%=can.getDateDisco()%></td> 
+                <td class="texteCentre" id="numImages" >(<%=i%>/<%=can.size(con)%>)</td>
                 <td class="texteCentre" id="nomGalaxie"><%=can.getNomImage()%></td>
             </table>
             <table class="infosTable">

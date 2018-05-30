@@ -131,8 +131,7 @@ public final class qualifierSN_jsp extends org.apache.jasper.runtime.HttpJspBase
         com.persistence.User user = null;
         if (maSession != null) {
             user = maSession.getUser();
-        }
-        
+        }       
     
       out.write("\n");
       out.write("        ");
