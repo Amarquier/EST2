@@ -101,7 +101,7 @@ div<%--
                 out.println("'/jpeg/images_SN/Tarot_Chili/" + img.getDate() + "/';");
                 out.print("dateCrt = " + img.getDate());
             %>
-            nouvelleImage(<%=newPos %>);
+            nouvelleImage(<%=newPos%>);
         </script>
         <a href="#panelCalendar" 
            class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-calendar ui-btn-left">

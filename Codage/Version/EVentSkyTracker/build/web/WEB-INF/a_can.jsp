@@ -52,7 +52,7 @@
             <div class="mesImages" align="center">
                 <canvas style="position:absolute;" id="canvasObs" ></canvas>
                 <img name="imgobs" id="imgobs" alt="erreur:image absente" src="<%=can.getChemin()+can.getNomImage()%>.jpg">
-                <img id="imgref" alt=".... aucune référence ...." src="/jpeg/refgal/<%=can.getNomImage()%>.jpg">
+                <img id="imgref" alt=".... aucune référence ...." src="/jpeg/images_SN/refgal/<%=can.getNomImage()%>.jpg">
             </div>
             <table class="infosTable">
                 <td class="texteCentre" id="dateImages"><%=can.getDateDisco()%></td>
