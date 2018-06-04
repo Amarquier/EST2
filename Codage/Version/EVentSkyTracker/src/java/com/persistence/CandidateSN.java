@@ -380,7 +380,7 @@ public class CandidateSN {
     
     public String getDateDisco() throws ParseException, Exception{
         String buf[] = chemin.split("/");
-        String sdate = buf[3].toString();
+        String sdate = buf[4].toString();
         SimpleDateFormat type = new SimpleDateFormat("yyyyMMdd");
         java.util.Date date = type.parse(sdate);
         SimpleDateFormat convert = new SimpleDateFormat("dd/MM/yyyy");

@@ -18,7 +18,7 @@ public class DiscoApplication {
     
     // info à modifier en fonction de la machine de déploiement
     static public String getPath() {
-        return "/home/snir2g2/Bureau/ros/ressources/snprocess/jpeg/images_SN/";
+        return "/home/snir2g2/Bureau/EST2/Codage/Version/ros/ressources/snprocess/jpeg/images_SN/";
     }
     static public String getRefPath() {
         return getPath() + "/refgal";
