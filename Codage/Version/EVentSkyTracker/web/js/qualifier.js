@@ -1,5 +1,5 @@
 /* 
-    Document    : qualifier.jsp
+    Document    : qualifierEST.jsp
     Description : Script JavaScript pour la section en mode user de l'application 
         smartphone Utilisé par qualifier.jsp uniquement;
         Source repris, modifié et enrichi à partir du source de snDiscovery
