@@ -66,6 +66,7 @@ public class User {
                 + Utils.toString(user.getRegisterDate()) + ", " 
                 + Utils.toString(user.getLastVisitDate()) + ", "
                 + Utils.toString(user.getNbCandidates()) + ", " 
+                + Utils.toString(user.getNbDecouvertes()) + ","
                 + Utils.toString(user.getNbQualifications()) + ", " 
                 + Utils.toString(user.getNbConnexions())
           + ")";
