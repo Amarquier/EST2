@@ -231,7 +231,7 @@ public final class qualifierSN_jsp extends org.apache.jasper.runtime.HttpJspBase
             
       out.write("\n");
       out.write("            nouvelleImage(");
-      out.print(newPos );
+      out.print(newPos);
       out.write(");\n");
       out.write("        </script>\n");
       out.write("        <a href=\"#panelCalendar\" \n");
@@ -406,11 +406,11 @@ if (images.size() <= 1) {
 
                 ArrayList<String> dates = ImageSN.getDerniersJours(con);
                 for (String date : dates) {
-                    /* out.println("<li><a href='disco.jsp?date=" + date + "'>" 
-                                        + Utils.formatDate(date) + "</a></li>");*/
+                    out.println("<li><a href='qualifierSN.jsp?date=" + date + "'>" 
+                                        + Utils.formatDate(date) + "</a></li>");
                     
-                    out.println("<li><a href='#' onclick='nouvelleDate(" + date + ");'>" 
-                                   + Utils.formatDate(date) + "</a></li>");
+                    /*out.println("<li><a href='#' onclick='nouvelleDate(" + date + ");'>" 
+                                   + Utils.formatDate(date) + "</a></li>");*/
                 }
             
       out.write("\n");

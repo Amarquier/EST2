@@ -109,7 +109,7 @@ function setCharAt(str,index,chr) {
 function nouvelleDate(dateCrt) {
     // résout le pb d'une app sous IPhone sans sortir de l'app
     position = 1;
-    $(location).attr('href',"disco.jsp?date=" + dateCrt);
+    $(location).attr('href',"qualifierSN.jsp?date=" + dateCrt);
     nouvelleimage(1);
 }
 

@@ -213,11 +213,11 @@ div<%--
             <%
                 ArrayList<String> dates = ImageSN.getDerniersJours(con);
                 for (String date : dates) {
-                    /* out.println("<li><a href='disco.jsp?date=" + date + "'>" 
-                                        + Utils.formatDate(date) + "</a></li>");*/
+                    out.println("<li><a href='qualifierSN.jsp?date=" + date + "'>" 
+                                        + Utils.formatDate(date) + "</a></li>");
                     
-                    out.println("<li><a href='#' onclick='nouvelleDate(" + date + ");'>" 
-                                   + Utils.formatDate(date) + "</a></li>");
+                    /*out.println("<li><a href='#' onclick='nouvelleDate(" + date + ");'>" 
+                                   + Utils.formatDate(date) + "</a></li>");*/
                 }
             %>
             <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
