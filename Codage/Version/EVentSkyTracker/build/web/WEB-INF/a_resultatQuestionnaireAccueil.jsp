@@ -35,7 +35,7 @@
         <div role="main" class="ui-content">
            
             <div data-role="content">
-                <br/><br/>
+                
               <!--  <h3>La vie des étoiles</h3>
                 <p>Si, par une belle nuit étoilée, nous regardons certaines régions du ciel, nous pouvons distinguer une grande variété de couleurs : des milliers d’étoiles de luminosités différentes.
                     D’où vient cette énergie émise en partie sous forme de lumière ? </p>            
@@ -50,20 +50,19 @@
                 </p>
                 <p>Cette nucléosynthèse est accompagnée d’une perte de masse qui correspond, selon la formule E=MC², à l’énergie produite. Cette réaction fait que l’étoile évolue et, a donc un début et une fin. </p>
               -->  
-                <br> <br/>
-                <br> <br/>
               
+              
+              <% int taille = Qualification.taille(con);
+                 int tailleSn = CandidateSN.size(con);
+              %>
                 
                 
+                <a id="btnQualSn" class="ui-btn bouton_a" data-role="button" onclick="window.location.href='eventSkyTracker.jsp?action=a_resultatQuestionnaireSn'" > <br><br/><% out.print("Supernovae (en attente " + tailleSn + ")");%></a> 
+                     
+                <a id="btnQualEST" class="ui-btn bouton_a" data-role="button" onclick="window.location.href='eventSkyTracker.jsp?action=a_resultatQuestionnaire'"><br><br/><% out.print("Kilonovae (en attente " + taille + ")");%></a>
                 
-                <a id="btnQualSn" class="ui-btn bouton_a" data-role="button" onclick="window.location.href='eventSkyTracker.jsp?action=a_resultatQuestionnaireSn'" > <br><br/>Supernovae</a>
-                     <br> <br/> 
-                     <br> <br/>
-                     <br> <br/>
-                     <a id="btnQualEST" class="ui-btn bouton_a" data-role="button" onclick="window.location.href='eventSkyTracker.jsp?action=a_resultatQuestionnaire'"><br><br/>Kilonovae</a>
+          
                 
-                <br> <br/>
-                <br/> <br/>
             </div>
             
             <div data-role="content">
@@ -73,7 +72,7 @@
 
 
 
-        <br/><br/><br/>
+        
 
 
 

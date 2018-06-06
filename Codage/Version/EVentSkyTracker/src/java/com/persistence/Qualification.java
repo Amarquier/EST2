@@ -235,6 +235,17 @@ public class Qualification {
         }
         return qualifications;
     }
+        public static int taille(Connection con) throws Exception {
+        String queryString = "select count(*) as count from qualification";
+        Statement lStat = con.createStatement(
+                                            ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                                            ResultSet.CONCUR_READ_ONLY);
+        ResultSet lResult = lStat.executeQuery(queryString);
+        if (lResult.next())
+            return (lResult.getInt("count"));
+        else 
+            return 0;
+    }
     
     /**
      * Cree et initialise completement User
