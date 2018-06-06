@@ -99,9 +99,10 @@ public class CandidateSN {
     }
     
     static public boolean supprimer(Connection con, String userPseudo, String nomImage, String chemin) throws Exception {
-        String queryString = "delete from `CandidateSN` where `userPseudo` = '" + userPseudo
-                                + "' and `nomImage` = '" + nomImage 
-                                + "' and `chemin` = '" + chemin + "'";
+        String queryString = "delete from candidateSN "
+                + " where userPseudo='" + userPseudo  + "'"
+                    + " and nomImage='" + nomImage + "'"
+                      + " and chemin='" + chemin + "'";
         Statement lStat = con.createStatement();
         lStat.executeUpdate(queryString, Statement.NO_GENERATED_KEYS);
         return true;

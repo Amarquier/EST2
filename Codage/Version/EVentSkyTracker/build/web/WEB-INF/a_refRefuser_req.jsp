@@ -17,7 +17,7 @@
         con = ConnexionMySQL.newConnexion();
         session.setAttribute("con", con);
     }
-    com.metier.DiscoSession maSession = (com.metier.DiscoSession)session.getAttribute("maSession");
+    com.metier.ESTSession maSession = (com.metier.ESTSession)session.getAttribute("maSession");
     if (maSession == null) {  
         request.getRequestDispatcher("discovery.jsp?action=pbAdminMode").forward(request, response);
     }

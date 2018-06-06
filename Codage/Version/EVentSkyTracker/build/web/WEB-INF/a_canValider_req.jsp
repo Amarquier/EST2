@@ -11,7 +11,7 @@
 <%@page import="com.persistence.*"%>
 <%@page pageEncoding="UTF-8"%>
 
-<jsp:useBean id="monAppli" scope="application" class="com.metier.DiscoApplication"/>
+<jsp:useBean id="monAppli" scope="application" class="com.metier.ESTApplication"/>
 <%
     Connection con = (Connection) session.getAttribute("con");
     if (con == null)
@@ -42,7 +42,7 @@
                 request.getRequestDispatcher("../discovery.jsp?action=a_canConfirme_req&msg=La découverte n'a pas été sauvegardée").forward(request, response);
             }
             else {
-                if (Candidate.supprimer(con, pseudo, nomImage, chemin)) {
+                if (CandidateSN.supprimer(con, pseudo, nomImage, chemin)) {
                     request.getRequestDispatcher("../discovery.jsp?action=a_canConfirme_req&msg=Le mail a correctement été envoyé et la supernova correctement validée.").forward(request, response);
                 }
                 else {
