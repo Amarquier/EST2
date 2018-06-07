@@ -456,7 +456,7 @@
             }
 
             function dejaInscrit() {
-                $.mobile.changePage("eventSkyTracker.jsp?action=infoUser", {transition: "slide"});
+                $.mobile.changePage("eventSkyTracker.jsp?action=index", {transition: "slide"});
             }
 
             function QCMNonReussi() {

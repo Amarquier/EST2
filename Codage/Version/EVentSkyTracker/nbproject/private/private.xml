@@ -3,23 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/Evenement.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/qualifierSN.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_resultatQuestionnaire.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/ImageSN.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/Qualification.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/Galaxie.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/ESTApplication.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/CandidateSN.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/ESTSession.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_resultatQuestionnaireSn.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/DiscoApplication.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/Decouverte.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/includes/qualifierHeaderEST.jspf</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/ImageEST.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_resultatQuestionnaireAccueil.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/discovery.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/js/disco.js</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/contact.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/evaluation.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/contact_req.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/qcm_req.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/eventSkyTracker.jsp</file>
         </group>
     </open-files>
 </project-private>

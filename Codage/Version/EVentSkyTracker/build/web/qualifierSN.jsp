@@ -31,8 +31,8 @@ div<%--
     <div class="header" data-role="header" data-id="main-header" data-tap-toggle="false" 
         data-theme="b" data-position="fixed" data-fullscreen="true">
         <h1>Découvrir</h1>
-        <%@include file="includes/session.jspf" %>
-        <%@include file="includes/user.jspf" %>
+        <%@include file="includes/sessionSN.jspf" %>
+        <%@include file="includes/userSN.jspf" %>
         <%--  script d'initialisation du tableau des images du jour --%>
         <script type="text/javascript">  
             <%
