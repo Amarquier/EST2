@@ -27,8 +27,8 @@ public final class qualifierSN_jsp extends org.apache.jasper.runtime.HttpJspBase
   static {
     _jspx_dependants = new java.util.ArrayList<String>(4);
     _jspx_dependants.add("/includes/head.jspf");
-    _jspx_dependants.add("/includes/session.jspf");
-    _jspx_dependants.add("/includes/user.jspf");
+    _jspx_dependants.add("/includes/sessionSN.jspf");
+    _jspx_dependants.add("/includes/userSN.jspf");
     _jspx_dependants.add("/includes/footer.jspf");
   }
 
@@ -131,7 +131,8 @@ public final class qualifierSN_jsp extends org.apache.jasper.runtime.HttpJspBase
         com.persistence.User user = null;
         if (maSession != null) {
             user = maSession.getUser();
-        }       
+        }
+        
     
       out.write("\n");
       out.write("        ");

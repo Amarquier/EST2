@@ -6,7 +6,7 @@
 
 package com.persistence;
 
-import com.metier.ESTApplication;
+import com.metier.DiscoApplication;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -330,7 +330,7 @@ public class ImageSN {
         this.crota2  = crota2;
         this.ra      = ra;
         this.dec     = dec;
-        this.galaxieRef = (ESTApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
+        this.galaxieRef = (DiscoApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
     }
     
     // ---------------- les getters (uniquement en lecture) --------------------
@@ -347,7 +347,7 @@ public class ImageSN {
     }
 
     public void changeGalaxieRef() {
-        this.galaxieRef = (ESTApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
+        this.galaxieRef = (DiscoApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
     }
 
     public String getDate() {

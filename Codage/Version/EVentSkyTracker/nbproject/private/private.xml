@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/contact.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/evaluation.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/contact_req.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/qcm_req.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/eventSkyTracker.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_ref.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_can.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/includes/a_footer.jspf</file>
         </group>
     </open-files>
 </project-private>

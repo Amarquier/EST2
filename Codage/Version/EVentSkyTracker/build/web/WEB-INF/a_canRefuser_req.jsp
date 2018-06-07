@@ -30,7 +30,7 @@
     String to = uMod.getEmail();
     boolean ok = SmtpSend.sendMessage(objet, mail, to);  
     if (ok) {
-        if (Candidate.supprimer(con, pseudo, nomImage, chemin)) {
+        if (CandidateSN.supprimer(con, pseudo, nomImage, chemin)) {
             request.getRequestDispatcher("../discovery.jsp?action=a_canConfirme_req&msg=Le mail a correctement été envoyé et la supernova correctement refusée.").forward(request, response);
         }
         else {

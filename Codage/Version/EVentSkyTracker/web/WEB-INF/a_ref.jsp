@@ -51,7 +51,7 @@
                     <img id="a_ref_imgobs" alt="erreur:image absente" src="<%=can.getChemin()%>">
                 </a>
                 <a href="#a_ref_popupZoomRight" id="a_ref_clicZoomRight" data-rel="popup" class="ui-link">
-                    <img id="a_ref_imgref" alt=".... aucune référence ...." src="/jpeg/refgal/<%=can.getGalaxieRef()%>.jpg">
+                    <img id="a_ref_imgref" alt=".... aucune référence ...." src="/jpeg/images_SN/refgal/<%=can.getGalaxieRef()%>.jpg">
                 </a>
             </div>
             <center>

@@ -25,7 +25,7 @@
     String telescope = tabChemin[2].toString();
     String date = tabChemin[3].toString();
     String galaxie = gala[0].toString();
-    com.metier.DiscoSession maSession = (com.metier.DiscoSession)session.getAttribute("maSession");
+    com.metier.ESTSession maSession = (com.metier.ESTSession)session.getAttribute("maSession");
     if (maSession != null) {
         com.persistence.User user = maSession.getUser();
         user.setLastImgGalaxie(galaxie);

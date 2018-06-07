@@ -21,7 +21,7 @@ public class DiscoApplication {
         return "/home/snir2g2/Bureau/EST2/Codage/Version/ros/ressources/snprocess/jpeg/images_SN/";
     }
     static public String getRefPath() {
-        return getPath() + "/refgal";
+        return getPath() + "refgal";
     }
     
     // retourne si l'image de reference existe ou non 

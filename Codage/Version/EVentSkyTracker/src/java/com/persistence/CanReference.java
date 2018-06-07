@@ -7,6 +7,7 @@
 
 package com.persistence;
 
+import com.metier.DiscoApplication;
 import com.metier.ESTApplication;
 import java.sql.*;
 import java.util.*;
@@ -173,7 +174,7 @@ public class CanReference {
         this.userPseudo = userPseudo;
         this.galaxieNom = galaxieNom;
         this.chemin = chemin;
-        this.galaxieRef = (ESTApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
+        this.galaxieRef = (DiscoApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
     }
     
     /**
@@ -186,7 +187,7 @@ public class CanReference {
         this.userPseudo = userPseudo;
         this.galaxieNom = galaxieNom;
         this.chemin = chemin;
-        this.galaxieRef = (ESTApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
+        this.galaxieRef = (DiscoApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
     }
         
     // --------------------- les assesseurs ----------------------------
@@ -219,7 +220,7 @@ public class CanReference {
     }
 
     public void changeGalaxieRef() {
-        this.galaxieRef = (ESTApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
+        this.galaxieRef = (DiscoApplication.isRefFileExist(galaxieNom)? galaxieNom : "_pasdImage");
     }
     
     public String getChemin(){
