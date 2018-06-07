@@ -8,7 +8,7 @@
 <%@page import="com.persistence.*"%>
 <%@page pageEncoding="UTF-8"%>
 
-<jsp:useBean id="monAppli" scope="application" class="com.metier.ESTApplication"/>
+<jsp:useBean id="monAppli" scope="application" class="com.metier.DiscoApplication"/>
 <%
     Connection con = (Connection) session.getAttribute("con");
     if (con == null)
