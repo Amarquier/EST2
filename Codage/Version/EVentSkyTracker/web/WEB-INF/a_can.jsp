@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <div class="page" data-role="page" id="discoPage" data-theme="b">
+        <div class="page" data-role="page" id="discoPage" data-theme="a">
             <div class="header" data-role="header" data-id="main-header" data-tap-toggle="false" 
                 data-theme="b" data-position="fixed" data-fullscreen="true">
             <h1>Valider</h1>
