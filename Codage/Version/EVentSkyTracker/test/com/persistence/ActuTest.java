@@ -56,31 +56,10 @@ public class ActuTest extends TestCase {
         assertEquals(13, Actu.size(con));
     }
 
-    /**
-     * Test of create method, of class Actu.
 
-    public void testCreate() throws Exception {
-        System.out.println("create");
-        Connection con = ConnexionMySQL.newConnexion();
-        String date = "20150629";
-        String titre = "test";
-        String contenu = "test";
-        Actu result = Actu.create(con, date, titre, contenu);
-        assertEquals(Actu.find(con, 1).getTitre(), "test");
-    }     */
 
     
-    /**
-     * Test of delete method, of class Actu.
 
-    public void testDelete() throws Exception {
-        System.out.println("delete");
-        Connection con = ConnexionMySQL.newConnexion();
-        boolean expResult = true;
-        Actu result = Actu.find(con, 1);
-        assertEquals(expResult, result.delete(con));
-    }     */
-    
     /**
      * Test of getId method, of class Actu.
      */

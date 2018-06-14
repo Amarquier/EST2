@@ -7,111 +7,82 @@ package com.persistence;
 
 import java.sql.Connection;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import junit.framework.TestCase;
+import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertNull;
 
 /**
  *
- * @author IRISINSTALL
+ * @author snir2g2
  */
 public class UserTest extends TestCase {
     
     public UserTest(String testName) {
         super(testName);
     }
-    
-    @Override
-    protected void setUp() throws Exception {
-        super.setUp();
-    }
-    
-    @Override
-    protected void tearDown() throws Exception {
-        super.tearDown();
-    }
 
-     /**
-     * Test of getByPseudo method, of class User.
-     */
-    public void testGetByPseudo() throws Exception {
-        System.out.println("getByPseudo");
-        Connection con = null;
-        String pseudo = "";
-        User expResult = null;
-        User result = User.getByPseudo(con, pseudo);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+
 
     /**
-     * Test of getPseudoByMail method, of class User.
+     * Test of getByImage method, of class User.
      */
-    public void testGetPseudoByMail() throws Exception {
-        System.out.println("getPseudoByMail");
-        Connection con = null;
-        String eMail = "";
-        String expResult = "";
-        String result = User.getPseudoByMail(con, eMail);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testGetByImage() throws Exception {
+        System.out.println("getByImage");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        assertEquals(result.size(), 0);
     }
 
     /**
      * Test of find method, of class User.
      */
-    public void testFind() throws Exception {
+    public void testFind_4args() throws Exception {
         System.out.println("find");
-        Connection con = null;
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
         int i = 0;
-        User expResult = null;
-        User result = User.find(con, i);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        CandidateSN result = CandidateSN.find(con, nomImage, chemin, i);
+        assertNull(result);
     }
 
     /**
-     * Test of findByPseudo method, of class User.
+     * Test of find method, of class User.
      */
-    public void testFindByPseudo() throws Exception {
-        System.out.println("findByPseudo");
-        Connection con = null;
+    public void testFind_Connection_int() throws Exception {
+        System.out.println("find");
+        Connection con = ConnexionMySQL.newConnexion();
         int i = 0;
-        String j = "";
-        User expResult = null;
-        User result = User.findByPseudo(con, i, j);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        CandidateSN result = CandidateSN.find(con, i);
+        assertNull(result);
     }
 
     /**
-     * Test of isPseudoUsed method, of class User.
+     * Test of isCandidateExiste method, of class User.
      */
-    public void testIsPseudoUsed() throws Exception {
-        System.out.println("isPseudoUsed");
-        Connection con = null;
-        String pseudo = "";
-        boolean expResult = false;
-        boolean result = User.isPseudoUsed(con, pseudo);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testIsCandidateExiste() throws Exception {
+        System.out.println("isCandidateExiste");
+        Connection con = ConnexionMySQL.newConnexion();
+        String userPseudo = "";
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        boolean result = CandidateSN.isCandidateExiste(con, userPseudo, nomImage, chemin);
+        assertEquals(result, false);
     }
 
     /**
-     * Test of isMailUsed method, of class User.
+     * Test of usersPseudoForCandidate method, of class User.
      */
-    public void testIsMailUsed() throws Exception {
-        System.out.println("isMailUsed");
-        Connection con = null;
-        String email = "";
-        boolean expResult = false;
-        boolean result = User.isMailUsed(con, email);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testUsersPseudoForCandidate() throws Exception {
+        System.out.println("usersPseudoForCandidate");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<String> result = CandidateSN.usersPseudoForCandidate(con, nomImage, chemin);
+        assertEquals(result.size(), 0);
     }
 
     /**
@@ -119,25 +90,164 @@ public class UserTest extends TestCase {
      */
     public void testSize() throws Exception {
         System.out.println("size");
-        Connection con = null;
-        int expResult = 0;
-        int result = User.size(con);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Connection con = ConnexionMySQL.newConnexion();
+        int result = CandidateSN.size(con);
+        assertEquals(result, 0);
     }
 
     /**
-     * Test of sizeRecherche method, of class User.
+     * Test of getDate method, of class User.
      */
-    public void testSizeRecherche() throws Exception {
-        System.out.println("sizeRecherche");
-        Connection con = null;
-        String recherche = "";
-        int expResult = 0;
-        int result = User.sizeRecherche(con, recherche);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void testGetDate() throws Exception {
+        System.out.println("getDate");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
     }
+    
+    /**
+     * Test of getCertitude method, of class User.
+     */
+    public void testGetCertitude() throws Exception {
+        System.out.println("getCertitude");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getX method, of class User.
+     */
+    public void testGetX() throws Exception {
+        System.out.println("getX");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getY method, of class User.
+     */
+    public void testGetY() throws Exception {
+        System.out.println("getY");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getRa method, of class User.
+     */
+    public void testGetRa() throws Exception {
+        System.out.println("getRa");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getDec method, of class User.
+     */
+    public void testGetDec() throws Exception {
+        System.out.println("getDec");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getUserPseudo method, of class User.
+     */
+    public void testGetUserPseudo() throws Exception {
+        System.out.println("getUserPseudo");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getNomImage method, of class User.
+     */
+    public void testGetNomImage() throws Exception {
+        System.out.println("getNomImage");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getChemin method, of class User.
+     */
+    public void testGetChemin() throws Exception {
+        System.out.println("getChemin");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getnomImage method, of class User.
+     */
+    public void testGetnomImage() throws Exception {
+        System.out.println("getnomImage");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getDateDisco method, of class User.
+     */
+    public void testGetDateDisco() throws Exception {
+        System.out.println("getDateDisco");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }
+
+    /**
+     * Test of getDateDecouverte method, of class User.
+     */
+    public void testGetDateDecouverte() throws Exception {
+        System.out.println("getDateDecouverte");
+        Connection con = ConnexionMySQL.newConnexion();
+        String nomImage = "IC3900";
+        String chemin = "/jpeg/images_SN/Tarot_Calern/20140319/";
+        ArrayList<CandidateSN> result = CandidateSN.getByImage(con, nomImage, chemin);
+        // Test impossible car table CandidateSN vide
+        assertEquals(result.size(), 0);
+    }    
 }
