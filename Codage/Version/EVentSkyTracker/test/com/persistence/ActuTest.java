@@ -43,7 +43,7 @@ public class ActuTest extends TestCase {
     public void testFind() throws Exception {
         System.out.println("find");
         Connection con = ConnexionMySQL.newConnexion();
-        assertEquals("Un astronome amateur capture par miracle une supernovae type 2b", Actu.find(con, 1).getTitre());
+        assertEquals("Premiere Kilonova", Actu.find(con, 1).getTitre());
         assertEquals("Fusion d'applications", Actu.find(con, 3).getTitre());
     }
 
@@ -99,7 +99,7 @@ public class ActuTest extends TestCase {
     public void testGetTitre() throws Exception {
         System.out.println("getTitre");
         Connection con = ConnexionMySQL.newConnexion();                
-        String expResult = "Un astronome amateur capture par miracle une supernovae type 2b";
+        String expResult = "Premiere Kilonova";
         Actu result = Actu.find(con, 1);
         assertEquals(expResult, result.getTitre());
 
@@ -123,13 +123,9 @@ public class ActuTest extends TestCase {
     public void testGetContenu() throws Exception {
         System.out.println("getContenu");
         Connection con = ConnexionMySQL.newConnexion();                
-        String expResult = "Baptisé SN2016gkg, a été observée \n" +
-"dans la constellation du Sculpteur, visible dans l'hémisphère sud, et est située dans une galaxie distante d'environ 65 millions d'années-lumière de la Terre. \n" +
-"<br/>\n" +
-"L'astronome amateur argentin Victor Buso a fait une découverte extraordinaire. Le 20 septembre 2016 , \n" +
-"il s'aperçoit qu'un point lumineux vient d'apparaître au sud de la galaxie spirale NGC 613. Après sa découverte, \n" +
-"il a contacté le représentant en Argentine de l'AAVSO (Association américaine des observateurs d'étoiles variables), \n" +
-"Sebastián Otero, pour écrire une alerte à toute la communauté astronomique, donnant les coordonnées et les caractéristiques de l'objet céleste.";
+        String expResult = "GW170817 est le nom donné à la premiere kilonova observée par Ligo et Virgo.<br/>\n" +
+"La détection du signal a été effectuée le 17 août 2017 à 12 h 41 UTC sur les trois sites, et a duré près de 100 s.<br/>\n" +
+" L'analyse du signal indique le fusionnement de deux astres de 1,1 à 1,6 masses solaires (des masses typiques d'étoiles à neutrons).";
         Actu result = Actu.find(con, 1);
         assertEquals(expResult, result.getContenu());
 

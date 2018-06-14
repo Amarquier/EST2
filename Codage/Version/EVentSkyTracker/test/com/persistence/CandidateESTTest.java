@@ -77,7 +77,7 @@ public class CandidateESTTest extends TestCase {
         int eventId = 1;
         String pseudo = "user1";
         ArrayList<CandidateEST> result = CandidateEST.getByEvenementAndUser(con, eventId, pseudo);
-        assertEquals("/Tarot_Calern/G268556_20170409T123000/13564567m0328127", result.get(0).getChemin());
+        assertEquals("/Tarot_Calern/G268556_20170409T123000/13563070m0425155", result.get(0).getChemin());
 
     }
 
