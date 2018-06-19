@@ -219,7 +219,7 @@ public final class qualifierEST_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("                    <div id=\"video\" >\n");
       out.write("                    </div>\n");
       out.write("                    <div id=\"ref\" \">\n");
-      out.write("                        <img id=\"img0\" src=\"images/tuto103.jpg\" />\n");
+      out.write("                        <img style=\"position: absolute; z-index: 1000;\" id=\"img0\" src=\"/jpeg/images_EST/Tarot_Chili/W265622_20170510T221206/14569010m0128155/20170510T231002.jpg\">\n");
       out.write("                    </div>\n");
       out.write("                </div>\n");
       out.write("                <!-- Ajouter l'info du délai entre le curseur et l'événement initial en mn -->\n");

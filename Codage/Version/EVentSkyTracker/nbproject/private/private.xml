@@ -3,22 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/3_init_evenement.sql</file>
             <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/ActuTest.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/8_init_images_SN.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/5_init_qualification.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/2_init_galaxies.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/4_init_candidate.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_can.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/ESTApplication.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/includes/a_footer.jspf</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/WEB-INF/a_ref.jsp</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/6_init_user.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/metier/ESTSession.java</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/7_init_admin.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/0_schema.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/1_init_actu.sql</file>
-            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/SQLScripts/9_init_images_EST.sql</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/ImageSNTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/User.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/QualificationTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/EvenementTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/ImageESTTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/UserTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/qualifierEST.jsp</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/web/js/qualifier.js</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/CandidateSNTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/test/com/persistence/CandidateESTTest.java</file>
+            <file>file:/home/snir2g2/Bureau/EST2/Codage/Version/EVentSkyTracker/src/java/com/persistence/CandidateEST.java</file>
         </group>
     </open-files>
 </project-private>

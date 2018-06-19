@@ -74,7 +74,7 @@
                     <div id="video" >
                     </div>
                     <div id="ref" ">
-                        <img id="img0" src="images/tuto103.jpg" />
+                        <img src="/jpeg/images_EST/Tarot_Chili/W265622_20170510T221206/14569010m0128155/20170510T231002.jpg">
                     </div>
                 </div>
                 <!-- Ajouter l'info du délai entre le curseur et l'événement initial en mn -->
